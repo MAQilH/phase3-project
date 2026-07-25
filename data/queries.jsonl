@@ -1,0 +1,20 @@
+{"query_id": "q001", "query_text": "gray fabric sofa for a small living room, not leather", "query_image_path": null, "query_type": "text", "split": "test"}
+{"query_id": "q002", "query_text": "modern wooden coffee table with storage", "query_image_path": null, "query_type": "text", "split": "test"}
+{"query_id": "q003", "query_text": "black office chair with armrests, not a dining chair", "query_image_path": null, "query_type": "text", "split": "test"}
+{"query_id": "q004", "query_text": "white bookshelf for a bedroom", "query_image_path": null, "query_type": "text", "split": "test"}
+{"query_id": "q005", "query_text": "floor lamp for living room, not a table lamp", "query_image_path": null, "query_type": "text", "split": "test"}
+{"query_id": "q006", "query_text": "round dining table for four people", "query_image_path": null, "query_type": "text", "split": "test"}
+{"query_id": "q007", "query_text": "beige area rug with a simple design, not colorful", "query_image_path": null, "query_type": "text", "split": "test"}
+{"query_id": "q008", "query_text": "small storage cabinet for entryway", "query_image_path": null, "query_type": "text", "split": "test"}
+{"query_id": "q009", "query_text": "stainless steel kitchen knife set, not plastic handle", "query_image_path": null, "query_type": "text", "split": "test"}
+{"query_id": "q010", "query_text": "glass vase for flowers, transparent and tall, not ceramic", "query_image_path": null, "query_type": "text", "split": "test"}
+{"query_id": "q011", "query_text": null, "query_image_path": "data/raw/images/small/ce/ce04dd2a.jpg", "query_type": "image", "split": "test"}
+{"query_id": "q012", "query_text": null, "query_image_path": "data/raw/images/small/fb/fb2a4da8.jpg", "query_type": "image", "split": "test"}
+{"query_id": "q013", "query_text": null, "query_image_path": "data/raw/images/small/79/798608e4.jpg", "query_type": "image", "split": "test"}
+{"query_id": "q014", "query_text": null, "query_image_path": "data/raw/images/small/11/11b87755.jpg", "query_type": "image", "split": "test"}
+{"query_id": "q015", "query_text": null, "query_image_path": "data/raw/images/small/43/4334330e.jpg", "query_type": "image", "split": "test"}
+{"query_id": "q016", "query_text": "similar style, but in black and not for dining", "query_image_path": "data/raw/images/small/3e/3ed459ef.jpg", "query_type": "image_text", "split": "test"}
+{"query_id": "q017", "query_text": "same shape but wooden, not metal", "query_image_path": "data/raw/images/small/63/63b92106.jpg", "query_type": "image_text", "split": "test"}
+{"query_id": "q018", "query_text": "larger size of a similar item, not a small one", "query_image_path": "data/raw/images/small/a6/a65e6e2c.jpg", "query_type": "image_text", "split": "test"}
+{"query_id": "q019", "query_text": "similar visual but for a kitchen, not a bedroom", "query_image_path": "data/raw/images/small/97/97628e73.jpg", "query_type": "image_text", "split": "test"}
+{"query_id": "q020", "query_text": "darker color version of a similar product, not a light one", "query_image_path": "data/raw/images/small/8f/8f53d9db.jpg", "query_type": "image_text", "split": "test"}

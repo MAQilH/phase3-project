@@ -1,0 +1,42 @@
+[project]
+name = "air-phase3-notebooks"
+version = "0.1.0"
+description = "AIR Phase 3 notebook package with a uv-managed validation environment."
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "numpy<2",
+    "pandas",
+    "pyarrow",
+    "scipy",
+]
+
+[project.optional-dependencies]
+index-checks = [
+    "faiss-cpu<1.11",
+]
+plots = [
+    "matplotlib",
+    "pillow",
+]
+stage1-gpu = [
+    "accelerate",
+    "faiss-cpu<1.11",
+    "matplotlib",
+    "pillow",
+    "sentence-transformers[image]",
+    "torch",
+    "transformers",
+    "tqdm",
+    "openai>=2.43.0",
+]
+stage5-llm = [
+    "accelerate",
+    "bitsandbytes",
+    "datasets",
+    "pandas>=2.3.3",
+    "peft",
+    "pyarrow>=24.0.0",
+    "safetensors",
+    "torch",
+    "transformers>=4.51",
+]

@@ -1,0 +1,17 @@
+{
+  "raw_scanned": 147702,
+  "has_english_title": 122734,
+  "has_main_image_id": 122274,
+  "in_home_category": 12249,
+  "after_dedup_item_id": 12208,
+  "after_image_join": 12208,
+  "placeholder_images": 14,
+  "dropped_placeholder_products": 371,
+  "after_placeholder_filter": 11837,
+  "num_product_types_pre_sample": 177,
+  "dropped_missing_image": 0,
+  "seed": 42,
+  "per_type_cap": 80,
+  "max_products": 2000,
+  "max_image_share": 5
+}
