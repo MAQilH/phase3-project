@@ -1,0 +1,4 @@
+model,path,total,direct_valid,canonicalized,accepted,fallback
+Qwen2.5-1.5B (baseline),reports/raw_llm_debug.local_qwen15b.jsonl,20,17,0,0,20
+Qwen2.5-3B (baseline),reports/raw_llm_debug.local_qwen3b.jsonl,20,0,0,0,20
+Qwen2.5-1.5B + LoRA,reports/raw_llm_debug.local_qwen15b_lora.jsonl,20,2,2,3,17
