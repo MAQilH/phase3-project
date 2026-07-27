@@ -113,7 +113,8 @@ def main():
     model = AutoModelForCausalLM.from_pretrained(
         args.base_model, quantization_config=bnb_config, device_map="auto",
     )
-    model = prepare_model_for_kbit_training(model)
+    model.config.use_cache = False
+    model = prepare_model_for_kbit_training(model, use_gradient_checkpointing=True)
 
     lora_config = LoraConfig(
         r=args.lora_r,
@@ -125,6 +126,7 @@ def main():
                          "gate_proj", "up_proj", "down_proj"],
     )
     model = get_peft_model(model, lora_config)
+    model.enable_input_require_grads()
     model.print_trainable_parameters()
 
     train_examples = load_dataset(args.train_jsonl, tokenizer, args.max_length)
@@ -146,6 +148,9 @@ def main():
         learning_rate=args.learning_rate,
         per_device_train_batch_size=args.per_device_train_batch_size,
         gradient_accumulation_steps=args.gradient_accumulation_steps,
+        gradient_checkpointing=True,
+        gradient_checkpointing_kwargs={"use_reentrant": False},
+        optim="paged_adamw_8bit",
         logging_steps=5,
         save_strategy="no",
         report_to=[],
