@@ -55,7 +55,7 @@ def average_precision(ranked_ids, qrels):
 
 
 def _dcg(gains):
-    return sum(g / math.log2(i + 2) for i, g in enumerate(gains))
+    return sum((2 ** g - 1) / math.log2(i + 2) for i, g in enumerate(gains))
 
 
 def ndcg_at_k(ranked_ids, qrels, k):
@@ -179,16 +179,18 @@ def build_error_analysis(retrieval, reranked, queries, qrels_by_query, path):
 
     # Case 1: dense retrieval beats sparse retrieval (dense finds a relevant
     # item earlier than sparse does).
-    best_gap, best_qid = -1, None
+    best_gap, best_qid = float("-inf"), None
     for qid, rec in retrieval_by_q.items():
         qrels = qrels_by_query.get(qid, {})
         dense_only = reorder_by(rec, "dense_score")
         sparse_only = reorder_by(rec, "sparse_score")
         dr, sr = relevant_rank(dense_only["results"], qrels), relevant_rank(sparse_only["results"], qrels)
-        if dr is not None and (sr is None or sr > dr):
-            gap = (sr or 999) - dr
-            if gap > best_gap:
-                best_gap, best_qid = gap, qid
+        # Missing rank ("no relevant item found") is worse than any real
+        # rank, so a query where dense finds a relevant item at all beats
+        # one where sparse never does, even if dense's rank isn't great.
+        gap = (sr if sr is not None else 9999) - (dr if dr is not None else 9999)
+        if gap > best_gap:
+            best_gap, best_qid = gap, qid
     if best_qid:
         qid = best_qid
         q = queries[qid]
@@ -205,16 +207,15 @@ def build_error_analysis(retrieval, reranked, queries, qrels_by_query, path):
         ))
 
     # Case 2: sparse beats dense.
-    best_gap, best_qid = -1, None
+    best_gap, best_qid = float("-inf"), None
     for qid, rec in retrieval_by_q.items():
         qrels = qrels_by_query.get(qid, {})
         dense_only = reorder_by(rec, "dense_score")
         sparse_only = reorder_by(rec, "sparse_score")
         dr, sr = relevant_rank(dense_only["results"], qrels), relevant_rank(sparse_only["results"], qrels)
-        if sr is not None and (dr is None or dr > sr) and qid != best_qid:
-            gap = (dr or 999) - sr
-            if gap > best_gap:
-                best_gap, best_qid = gap, qid
+        gap = (dr if dr is not None else 9999) - (sr if sr is not None else 9999)
+        if gap > best_gap:
+            best_gap, best_qid = gap, qid
     if best_qid:
         qid = best_qid
         q = queries[qid]
@@ -231,7 +232,7 @@ def build_error_analysis(retrieval, reranked, queries, qrels_by_query, path):
         ))
 
     # Case 3: reranking improves ranking (relevant item moves up).
-    best_gain, best_qid = -1, None
+    best_gain, best_qid = float("-inf"), None
     for qid, rec in retrieval_by_q.items():
         rr = reranked_by_q.get(qid)
         if not rr:
@@ -239,10 +240,9 @@ def build_error_analysis(retrieval, reranked, queries, qrels_by_query, path):
         qrels = qrels_by_query.get(qid, {})
         before_rank = relevant_rank(rec["results"], qrels)
         after_rank = relevant_rank(rr["results"], qrels)
-        if before_rank is not None and after_rank is not None and before_rank > after_rank:
-            gain = before_rank - after_rank
-            if gain > best_gain:
-                best_gain, best_qid = gain, qid
+        gain = (before_rank if before_rank is not None else 9999) - (after_rank if after_rank is not None else 9999)
+        if gain > best_gain:
+            best_gain, best_qid = gain, qid
     if best_qid:
         qid = best_qid
         q = queries[qid]
@@ -258,7 +258,7 @@ def build_error_analysis(retrieval, reranked, queries, qrels_by_query, path):
         ))
 
     # Case 4: reranking hurts ranking (relevant item moves down).
-    worst_loss, worst_qid = -1, None
+    worst_loss, worst_qid = float("-inf"), None
     for qid, rec in retrieval_by_q.items():
         rr = reranked_by_q.get(qid)
         if not rr:
@@ -266,10 +266,9 @@ def build_error_analysis(retrieval, reranked, queries, qrels_by_query, path):
         qrels = qrels_by_query.get(qid, {})
         before_rank = relevant_rank(rec["results"], qrels)
         after_rank = relevant_rank(rr["results"], qrels)
-        if before_rank is not None and after_rank is not None and after_rank > before_rank:
-            loss = after_rank - before_rank
-            if loss > worst_loss:
-                worst_loss, worst_qid = loss, qid
+        loss = (after_rank if after_rank is not None else 9999) - (before_rank if before_rank is not None else 9999)
+        if loss > worst_loss:
+            worst_loss, worst_qid = loss, qid
     if worst_qid:
         qid = worst_qid
         q = queries[qid]
@@ -352,7 +351,11 @@ def main():
     if reranked_path and os.path.exists(reranked_path):
         reranked = load_jsonl(reranked_path)
         ce_only_records = [reorder_by(r, "cross_encoder_score") for r in reranked]
-        all_rows += evaluate_run(ce_only_records, qrels_by_query, queries, "hybrid_cross_encoder")
+        # hybrid_cross_encoder is the text-only cross-encoder ablation (see
+        # assignment 8.3/19): image-only queries have no text-driven ablation
+        # here and are only covered by the dense/prefusion/fused runs above.
+        all_rows += evaluate_run(ce_only_records, qrels_by_query, queries, "hybrid_cross_encoder",
+                                  exclude_query_types=("image",))
         all_rows += evaluate_run(reranked, qrels_by_query, queries, "hybrid_cross_encoder_fused")
 
     metrics_df = pd.DataFrame(all_rows)
