@@ -1,0 +1,398 @@
+{"query_id": "q001", "product_id": "B086B5MRFB|amazon.in", "relevance": 2, "reason": "The product is a gray fabric sofa that matches all user requirements, including the negative constraint of not being leather."}
+{"query_id": "q001", "product_id": "B07BWJCVR2|amazon.com", "relevance": 2, "reason": "The product is a grey fabric chaise sofa that matches the color, material, and style requested."}
+{"query_id": "q001", "product_id": "B07QJXW4JR|amazon.com", "relevance": 2, "reason": "The product is a light grey loveseat sofa, which matches the color, material type, and intended use case."}
+{"query_id": "q001", "product_id": "B07B4D4964|amazon.com", "relevance": 2, "reason": "The product is a gray (pewter) fabric sectional sofa that matches all user requirements and constraints."}
+{"query_id": "q001", "product_id": "B0723H8HJY|amazon.com", "relevance": 2, "reason": "The product is a stone-colored fabric sectional that matches the color, material, and type requested."}
+{"query_id": "q001", "product_id": "B07HPNBTHF|amazon.co.uk", "relevance": 0, "reason": "The product violates the explicit negative constraint of 'not leather' as it is a leather sofa."}
+{"query_id": "q001", "product_id": "B073G8Q656|amazon.com", "relevance": 2, "reason": "The product is a grey fabric sofa that matches the color, material, and size requirements, and it is not leather."}
+{"query_id": "q001", "product_id": "B07B4D88DY|amazon.com", "relevance": 2, "reason": "The product is a charcoal grey sectional sofa that matches the color and material requirements (fabric/not leather)."}
+{"query_id": "q001", "product_id": "B07K2JGTDN|amazon.com", "relevance": 0, "reason": "The product is a fabric swatch, not a sofa."}
+{"query_id": "q001", "product_id": "B07B4MRLT8|amazon.com", "relevance": 1, "reason": "The product is a grey sofa as requested, but the metadata incorrectly identifies the product type as a furniture cover rather than the sofa itself."}
+{"query_id": "q001", "product_id": "B072PZJZXW|amazon.com", "relevance": 2, "reason": "The product is a gray (pewter) velvet loveseat, which matches the color, material, and small size requirements, and is not leather."}
+{"query_id": "q001", "product_id": "B07QFP4M7W|amazon.com", "relevance": 0, "reason": "The product color is golden brown, which does not match the requested gray color."}
+{"query_id": "q001", "product_id": "B07QBMQ4YF|amazon.com", "relevance": 0, "reason": "The product color is Hunter Green, which does not match the requested gray color."}
+{"query_id": "q001", "product_id": "B07BW8QSLC|amazon.com", "relevance": 1, "reason": "The product is a sectional sofa that matches the style and material (fabric) requested, though the color is blue rather than gray."}
+{"query_id": "q001", "product_id": "B07WG2MHC7|amazon.in", "relevance": 1, "reason": "The product is a fabric sofa as requested, but it is blue instead of gray and is a 1-seater rather than a full sofa."}
+{"query_id": "q001", "product_id": "B07PC11RS2|amazon.com", "relevance": 0, "reason": "The product is made of leather, which violates the user's negative constraint of 'not leather'."}
+{"query_id": "q001", "product_id": "B07B4FWGZS|amazon.com", "relevance": 0, "reason": "The product is leather and saddle-colored, violating the user's negative constraint of 'not leather' and the color preference for gray."}
+{"query_id": "q001", "product_id": "B083XBTBCH|amazon.ca", "relevance": 0, "reason": "The product is a leather ottoman, which violates the user's negative constraint of 'not leather' and does not match the requested item type (sofa)."}
+{"query_id": "q001", "product_id": "B07P6JWDG5|amazon.com", "relevance": 0, "reason": "The product is a leather ottoman, which violates the user's negative constraint of 'not leather'."}
+{"query_id": "q001", "product_id": "B075X4VM6B|amazon.com", "relevance": 1, "reason": "The product is a fabric (velvet) daybed sofa that is not leather, but the color is a dark blue/shadow rather than gray."}
+{"query_id": "q002", "product_id": "B07GF51SLB|amazon.co.uk", "relevance": 2, "reason": "The product is a rectangular wooden coffee table with a shelf for storage, matching all query criteria."}
+{"query_id": "q002", "product_id": "B07QC861L7|amazon.com", "relevance": 2, "reason": "The product is a mid-century modern coffee table with both wood and white finishes and includes storage compartments."}
+{"query_id": "q002", "product_id": "B07K7NNS6N|amazon.co.uk", "relevance": 2, "reason": "The product is a wooden coffee table with a glass top and a shelf for storage, matching all query criteria."}
+{"query_id": "q002", "product_id": "B07QJLWJJM|amazon.ca", "relevance": 2, "reason": "The product is a wooden coffee table with a chevron design and a storage shelf, matching all query criteria."}
+{"query_id": "q002", "product_id": "B07J1YW3YT|amazon.com", "relevance": 1, "reason": "The product is a wooden coffee table with storage, but it is a lift-top design rather than a 'odern' style as requested."}
+{"query_id": "q002", "product_id": "B07K7K4CM2|amazon.co.uk", "relevance": 2, "reason": "The product is a wooden coffee table with a glass top and a shelf for storage, matching all query criteria."}
+{"query_id": "q002", "product_id": "B07DB92DKW|amazon.com", "relevance": 1, "reason": "The product is a side table with storage, which is a useful substitute for a coffee table, though it is smaller in scale."}
+{"query_id": "q002", "product_id": "B07QC85YG7|amazon.com", "relevance": 1, "reason": "The product is a wooden coffee table that matches the style, but it lacks the storage feature requested in the query."}
+{"query_id": "q002", "product_id": "B075Z8KXW7|amazon.com", "relevance": 2, "reason": "The product is a wooden coffee table with a rustic/modern farmhouse style and includes a lower shelf for storage."}
+{"query_id": "q002", "product_id": "B07176PVBX|amazon.com", "relevance": 1, "reason": "The product is a coffee table that matches the style, but the material and specific storage features cannot be verified from the metadata."}
+{"query_id": "q002", "product_id": "B072ZK887F|amazon.com", "relevance": 1, "reason": "The product is a side table with storage, which is a useful substitute for a coffee table."}
+{"query_id": "q002", "product_id": "B075YQXRJM|amazon.com", "relevance": 1, "reason": "The product is a wooden table, but it is a dining table rather than a coffee table and lacks storage."}
+{"query_id": "q002", "product_id": "B07B77VXN8|amazon.com", "relevance": 0, "reason": "The product is a buffet bar cabinet/credenza, which is a different type of furniture than the requested coffee table."}
+{"query_id": "q002", "product_id": "B07GFG6JMM|amazon.co.uk", "relevance": 1, "reason": "The product is an oval wooden coffee table that matches the visual description, but the metadata incorrectly categorizes it as a clothes rack."}
+{"query_id": "q002", "product_id": "B07DBF3VJY|amazon.com", "relevance": 2, "reason": "The product is a white wooden coffee table with a shelf for storage, matching all query criteria."}
+{"query_id": "q002", "product_id": "B07SSCJKLN|amazon.in", "relevance": 2, "reason": "The product is a modern espresso-finished engineered wood coffee table that includes a lower shelf for storage, matching all query criteria."}
+{"query_id": "q002", "product_id": "B085W6GGN5|amazon.in", "relevance": 2, "reason": "The product is a wooden coffee table that matches the modern style and includes storage in the form of stools."}
+{"query_id": "q002", "product_id": "B07RMYYLWY|amazon.co.uk", "relevance": 2, "reason": "The product is a coffee table made of wood with a sliding door for storage, matching all query criteria."}
+{"query_id": "q002", "product_id": "B07LC9HXSF|amazon.in", "relevance": 0, "reason": "The product is a dressing table with a mirror, not a coffee table."}
+{"query_id": "q003", "product_id": "B07QLGRVPN|amazon.in", "relevance": 2, "reason": "The product is a black mesh office chair with armrests, matching all user requirements and constraints."}
+{"query_id": "q003", "product_id": "B07SSHYD2Z|amazon.co.uk", "relevance": 2, "reason": "The product is a black mesh swivel office chair with armrests, matching all user requirements."}
+{"query_id": "q003", "product_id": "B075Z6S94K|amazon.com", "relevance": 0, "reason": "The product is a swivel armchair with armrests but it is teal/aqua colored, not black, so it fails the color requirement."}
+{"query_id": "q003", "product_id": "B081HWKWN6|amazon.co.uk", "relevance": 2, "reason": "The product is a black ergonomic office chair with armrests, matching all user requirements."}
+{"query_id": "q003", "product_id": "B07HSKB7B4|amazon.com", "relevance": 0, "reason": "The product is explicitly a dining chair with arms, violating the negative constraint, and it is grey rather than black."}
+{"query_id": "q003", "product_id": "B07QYB14F4|amazon.ca", "relevance": 0, "reason": "The product is a desk chair but has no visible armrests and is red rather than black."}
+{"query_id": "q003", "product_id": "B081HX9SRM|amazon.co.uk", "relevance": 2, "reason": "The product is a black high-back mesh office chair with armrests, matching all user requirements."}
+{"query_id": "q003", "product_id": "B08568HG2X|amazon.com", "relevance": 0, "reason": "The product is a black kitchen counter-height stool without armrests, not an office chair."}
+{"query_id": "q003", "product_id": "B084W339RK|amazon.com", "relevance": 1, "reason": "The product has armrests and casters similar to an office chair, but it is explicitly a dining chair and is slate/taupe colored, not black."}
+{"query_id": "q003", "product_id": "B07R41343J|amazon.co.uk", "relevance": 0, "reason": "The product is a black chair slipcover for a dining chair, not an office chair, and violates the negative constraint."}
+{"query_id": "q003", "product_id": "B07MBFDQLY|amazon.com", "relevance": 0, "reason": "The product is explicitly a white dining chair with no armrests visible, violating both the color and negative constraint."}
+{"query_id": "q003", "product_id": "B07HMPPZRN|amazon.com", "relevance": 1, "reason": "Black chair with armrests but it's an outdoor folding rocking chair, not an office chair."}
+{"query_id": "q003", "product_id": "B07DBG291H|amazon.com", "relevance": 0, "reason": "Wrong color (dark blue, not black) and it's an upholstered accent chair, not an office chair."}
+{"query_id": "q003", "product_id": "B07QGWLBBC|amazon.com", "relevance": 0, "reason": "Explicitly a dining chair in green, directly violating the 'not a dining chair' constraint."}
+{"query_id": "q003", "product_id": "B0857JPHNF|amazon.com", "relevance": 0, "reason": "A barstool without armrests, not an office chair."}
+{"query_id": "q003", "product_id": "B084S1DM72|amazon.com", "relevance": 0, "reason": "Gray dining chairs, wrong color and violates the 'not a dining chair' constraint."}
+{"query_id": "q003", "product_id": "B01DN8TG46|amazon.co.uk", "relevance": 0, "reason": "A footrest, not a chair at all."}
+{"query_id": "q003", "product_id": "B07F95756L|amazon.com.au", "relevance": 0, "reason": "A footrest, not a chair at all."}
+{"query_id": "q003", "product_id": "B0010SOA2A|amazon.com", "relevance": 0, "reason": "Just a cushion for a dining arm chair, not a chair itself, and tied to dining chairs."}
+{"query_id": "q003", "product_id": "B07K7729MV|amazon.co.uk", "relevance": 0, "reason": "A beige chair slipcover for dining chairs, not an office chair itself."}
+{"query_id": "q004", "product_id": "B07P65599S|amazon.com", "relevance": 1, "reason": "White bedroom furniture with built-in bookcase storage, but it's a headboard rather than a standalone bookshelf."}
+{"query_id": "q004", "product_id": "B07QF9X1LH|amazon.com", "relevance": 2, "reason": "A white bookcase suitable for a bedroom, matching the query well."}
+{"query_id": "q004", "product_id": "B07TX2D4XN|amazon.co.uk", "relevance": 0, "reason": "A light oak bookcase, not white, so it fails the explicit color requirement."}
+{"query_id": "q004", "product_id": "B075ZF4S39|amazon.com", "relevance": 2, "reason": "A white 4-shelf bookcase, a strong match for a white bookshelf."}
+{"query_id": "q004", "product_id": "B07PZN19XB|amazon.com", "relevance": 0, "reason": "Dark Wenge/black finish bookcase, not white."}
+{"query_id": "q004", "product_id": "B079TXCC1J|amazon.co.uk", "relevance": 0, "reason": "A black bedside cabinet, not a bookshelf and wrong color."}
+{"query_id": "q004", "product_id": "B0851ZXS46|amazon.co.uk", "relevance": 2, "reason": "A white wall shelf unit, a strong match for a white bookshelf."}
+{"query_id": "q004", "product_id": "B07PPNNCM2|amazon.com", "relevance": 2, "reason": "A white 5-tier ladder bookshelf, an excellent match for the query."}
+{"query_id": "q004", "product_id": "B078S81KPH|amazon.com", "relevance": 2, "reason": "A white 4-shelf bookcase (same product image as the white/sandstone Barrett bookcase), a strong match."}
+{"query_id": "q004", "product_id": "B07V152DQ8|amazon.co.uk", "relevance": 0, "reason": "A brown cube bookcase, not white."}
+{"query_id": "q004", "product_id": "B07QC85X9C|amazon.com", "relevance": 2, "reason": "A white modern bookcase, a strong match for the query."}
+{"query_id": "q004", "product_id": "B07MKHHP34|amazon.in", "relevance": 0, "reason": "A walnut-finish bookshelf, not white."}
+{"query_id": "q004", "product_id": "B07XKC5BCW|amazon.ca", "relevance": 1, "reason": "An antique-white wall storage cabinet with open shelving, a partial substitute for a white bookshelf."}
+{"query_id": "q004", "product_id": "B079VNL3CG|amazon.co.uk", "relevance": 0, "reason": "A black bedside cabinet with drawers, not a bookshelf and wrong color."}
+{"query_id": "q004", "product_id": "B07D5M2YZC|amazon.com", "relevance": 0, "reason": "A natural wood storage cabinet, not white and categorized as teaching equipment, not a bedroom bookshelf."}
+{"query_id": "q004", "product_id": "B075ZBW1RR|amazon.com", "relevance": 0, "reason": "A walnut/metal industrial bookcase, not white."}
+{"query_id": "q004", "product_id": "B07PYL46GJ|amazon.com", "relevance": 1, "reason": "A white L-shaped desk with open bookshelves attached, a partial match since it's primarily a desk."}
+{"query_id": "q004", "product_id": "B07HSM1W45|amazon.com", "relevance": 1, "reason": "A whitewashed bedroom headboard, related bedroom furniture but not a bookshelf."}
+{"query_id": "q004", "product_id": "B07PXFVNXR|amazon.com", "relevance": 1, "reason": "A white bedroom dresser, matches color and room but is not a bookshelf."}
+{"query_id": "q004", "product_id": "B001BQ8III|amazon.com", "relevance": 0, "reason": "A dark wood glass-top desk, not a bookshelf and image shows a dark finish rather than white."}
+{"query_id": "q005", "product_id": "B07DBCMTPB|amazon.com", "relevance": 2, "reason": "Explicitly a living room floor lamp, a strong match."}
+{"query_id": "q005", "product_id": "B07B4ZK8BR|amazon.com", "relevance": 2, "reason": "A floor lamp (with attached side table), matching the query and not a table lamp."}
+{"query_id": "q005", "product_id": "B0824F7ZLF|amazon.com", "relevance": 2, "reason": "A tall traditional floor lamp, a strong match for the query."}
+{"query_id": "q005", "product_id": "B0742DNY41|amazon.sg", "relevance": 2, "reason": "A tall marble and brass floor lamp, a strong match for the query."}
+{"query_id": "q005", "product_id": "B07QD5SXJH|amazon.in", "relevance": 2, "reason": "A tall arc floor lamp, a strong match for the query."}
+{"query_id": "q005", "product_id": "B0825D87LB|amazon.com", "relevance": 0, "reason": "A short glass table lamp, explicitly violating the 'not a table lamp' constraint."}
+{"query_id": "q005", "product_id": "B07MBFD6F9|amazon.com", "relevance": 0, "reason": "A short metal table lamp, explicitly violating the 'not a table lamp' constraint."}
+{"query_id": "q005", "product_id": "B0825DN9JL|amazon.com", "relevance": 0, "reason": "A short glass table lamp, explicitly violating the 'not a table lamp' constraint."}
+{"query_id": "q005", "product_id": "B07MBFDHMH|amazon.com", "relevance": 0, "reason": "A short ceramic table lamp, explicitly violating the 'not a table lamp' constraint."}
+{"query_id": "q005", "product_id": "B0824F3KVZ|amazon.com", "relevance": 0, "reason": "A short metal table lamp, explicitly violating the 'not a table lamp' constraint."}
+{"query_id": "q005", "product_id": "B075X2YJHZ|amazon.com", "relevance": 2, "reason": "A tall tripod floor lamp, a strong match for the query even though it's spotlight-style."}
+{"query_id": "q005", "product_id": "B075X1T517|amazon.in", "relevance": 0, "reason": "A textured table lamp, explicitly violating the 'not a table lamp' constraint."}
+{"query_id": "q005", "product_id": "B0824FLNCJ|amazon.com", "relevance": 0, "reason": "A metal table lamp, explicitly violating the 'not a table lamp' constraint."}
+{"query_id": "q005", "product_id": "B073772TP9|amazon.com", "relevance": 0, "reason": "A short table/desk lamp, explicitly violating the 'not a table lamp' constraint."}
+{"query_id": "q005", "product_id": "B0825CXG8H|amazon.com", "relevance": 0, "reason": "A metal starburst table lamp, explicitly violating the 'not a table lamp' constraint."}
+{"query_id": "q005", "product_id": "B07B51946F|amazon.com", "relevance": 0, "reason": "A short fan-style table/desk lamp (image shows a fan-shaped fixture), violating the 'not a table lamp' constraint."}
+{"query_id": "q005", "product_id": "B07ML7M196|amazon.com", "relevance": 0, "reason": "A short cement-textured table lamp, explicitly violating the 'not a table lamp' constraint."}
+{"query_id": "q005", "product_id": "B075X2NLJZ|amazon.com.au", "relevance": 0, "reason": "A short ceramic pineapple table lamp, explicitly violating the 'not a table lamp' constraint."}
+{"query_id": "q005", "product_id": "B07MHMR8FV|amazon.com", "relevance": 0, "reason": "A short desk/task lamp, not a floor lamp, violating the query's constraint."}
+{"query_id": "q005", "product_id": "B07MF1RKM3|amazon.com", "relevance": 0, "reason": "A short ceramic table lamp, explicitly violating the 'not a table lamp' constraint."}
+{"query_id": "q006", "product_id": "B00DBSSHTY|amazon.co.uk", "relevance": 2, "reason": "A round 48-inch dining table, sized appropriately for four people, though intended for outdoor/garden use."}
+{"query_id": "q006", "product_id": "B083SWXZBZ|amazon.in", "relevance": 1, "reason": "Seats four but the table is rectangular in the image rather than round."}
+{"query_id": "q006", "product_id": "B07BDVBFH5|amazon.co.uk", "relevance": 0, "reason": "This is a flatware set (forks/spoons/knives), not a dining table."}
+{"query_id": "q006", "product_id": "B075YQXRJM|amazon.com", "relevance": 1, "reason": "A dining table but clearly rectangular, not round, in the image."}
+{"query_id": "q006", "product_id": "B085ZKX1TB|amazon.com", "relevance": 1, "reason": "4-seater dining table set but rectangular shape, not round."}
+{"query_id": "q006", "product_id": "B085Z6C2J4|amazon.in", "relevance": 1, "reason": "Rectangular dining set seating six, not the requested round four-seater."}
+{"query_id": "q006", "product_id": "B001NEIPW2|amazon.com", "relevance": 1, "reason": "Round table shape matches, but it is a small folding bistro table likely too small to seat four."}
+{"query_id": "q006", "product_id": "B07HJR368C|amazon.ca", "relevance": 0, "reason": "A square kids' activity table with kid-sized chairs, not a round adult dining table."}
+{"query_id": "q006", "product_id": "B075HXJY3Y|amazon.com", "relevance": 0, "reason": "These are round coasters, not a dining table."}
+{"query_id": "q006", "product_id": "B07CYWRK7B|amazon.co.uk", "relevance": 0, "reason": "This is a protective cover for a round table, not a table itself."}
+{"query_id": "q006", "product_id": "B07HJR2VG9|amazon.sa", "relevance": 0, "reason": "Square kids' table for two, not a round dining table for four."}
+{"query_id": "q006", "product_id": "B07B874GDK|amazon.com", "relevance": 1, "reason": "A dining table but rectangular and sized for more than four, not round."}
+{"query_id": "q006", "product_id": "B083SYCS14|amazon.in", "relevance": 1, "reason": "Rectangular 6-seater dining set, not round and not for four."}
+{"query_id": "q006", "product_id": "B07QB79FTP|amazon.ca", "relevance": 0, "reason": "A dinnerware (plates/bowl) set, not a table."}
+{"query_id": "q006", "product_id": "B084H87DQZ|amazon.ae", "relevance": 0, "reason": "This is an area rug, not a dining table."}
+{"query_id": "q006", "product_id": "B00LFIZ4FW|amazon.co.uk", "relevance": 0, "reason": "A dining table protective cover, not a table itself."}
+{"query_id": "q006", "product_id": "B072ZK887F|amazon.com", "relevance": 0, "reason": "A small round side table with a storage basket, not a dining table for four."}
+{"query_id": "q006", "product_id": "B07GJKFS4F|amazon.in", "relevance": 0, "reason": "A set of dinner knives, not a table."}
+{"query_id": "q006", "product_id": "B07ZQYCR21|amazon.in", "relevance": 0, "reason": "A steam table pan lid, unrelated to a dining table."}
+{"query_id": "q006", "product_id": "B000FTHD9W|amazon.in", "relevance": 0, "reason": "A single-person dinnerware place setting, not a table."}
+{"query_id": "q007", "product_id": "B071LQHVJZ|amazon.com", "relevance": 2, "reason": "Beige wool area rug with a simple, understated interlocking-ring pattern, not colorful."}
+{"query_id": "q007", "product_id": "B0794PSNTT|amazon.ca", "relevance": 0, "reason": "Image shows a busy multicolor red/navy traditional medallion rug, not beige or simple."}
+{"query_id": "q007", "product_id": "B075JR5KF5|amazon.co.uk", "relevance": 0, "reason": "Ornate multicolor red/tan traditional pattern rug, the opposite of a simple beige design."}
+{"query_id": "q007", "product_id": "B07TCGFHRD|amazon.co.uk", "relevance": 1, "reason": "Simple geometric pattern area rug but the color is grey rather than beige."}
+{"query_id": "q007", "product_id": "B07P1TKX9L|amazon.com", "relevance": 1, "reason": "A plain beige-toned fabric swatch consistent with a simple, non-colorful rug material, but not an actual rug listing."}
+{"query_id": "q007", "product_id": "B075LCPZFP|amazon.co.uk", "relevance": 0, "reason": "Bright pink floral wool rug, not beige or simple."}
+{"query_id": "q007", "product_id": "B084H87DQZ|amazon.ae", "relevance": 0, "reason": "The rug visible in the lifestyle photo has a multicolor patterned design, not a simple beige look."}
+{"query_id": "q007", "product_id": "B07P1TL81Y|amazon.com", "relevance": 1, "reason": "Plain beige/linen-toned swatch matching the simple, non-colorful beige requirement, though it's a swatch rather than a finished rug."}
+{"query_id": "q007", "product_id": "B07P5DRWSL|amazon.com", "relevance": 1, "reason": "Plain beige-toned fabric swatch, simple and not colorful, but not an actual rug product."}
+{"query_id": "q007", "product_id": "B07KRBPKT6|amazon.com", "relevance": 1, "reason": "Plain neutral beige-toned swatch that is simple and uncolorful, but it's a bench fabric swatch, not a rug."}
+{"query_id": "q007", "product_id": "B07P43LDCP|amazon.com", "relevance": 1, "reason": "Plain beige-toned swatch, simple and not colorful, but not an actual rug listing."}
+{"query_id": "q007", "product_id": "B07GFGV877|amazon.co.uk", "relevance": 0, "reason": "Rug is explicitly Navy Blue, not beige."}
+{"query_id": "q007", "product_id": "B07P2YN9JH|amazon.com", "relevance": 1, "reason": "Plain beige/tan-toned swatch, simple and uncolorful, but a swatch rather than a finished rug."}
+{"query_id": "q007", "product_id": "B07CTRWV5G|amazon.ca", "relevance": 1, "reason": "Plain neutral cream-toned swatch, simple and uncolorful, but an ottoman fabric swatch rather than a rug."}
+{"query_id": "q007", "product_id": "B07P43KK6S|amazon.com", "relevance": 1, "reason": "Plain stone/grey-beige toned swatch, simple and uncolorful, but not a finished rug."}
+{"query_id": "q007", "product_id": "B07KKRQXXK|amazon.co.uk", "relevance": 0, "reason": "A black foam standing desk mat, not a beige area rug."}
+{"query_id": "q007", "product_id": "B07KKFVFL4|amazon.co.uk", "relevance": 0, "reason": "A black foam standing desk mat, not a beige area rug."}
+{"query_id": "q007", "product_id": "B07SG95W2W|amazon.com.au", "relevance": 0, "reason": "A beige cat tree, not a rug of any kind."}
+{"query_id": "q007", "product_id": "B07SCKV46L|amazon.ca", "relevance": 0, "reason": "A beige cat tree, not a rug of any kind."}
+{"query_id": "q007", "product_id": "B07KRN2386|amazon.co.uk", "relevance": 0, "reason": "Image shows a black-and-white plaid patterned rug, not beige and not a simple solid/subtle design."}
+{"query_id": "q008", "product_id": "B07B8FHTJ4|amazon.com", "relevance": 2, "reason": "Small wall-mounted farmhouse storage cabinet, a good fit for entryway storage."}
+{"query_id": "q008", "product_id": "B07DBDTCTY|amazon.com", "relevance": 1, "reason": "Explicitly an entryway storage piece, but it's a bench with cubbies rather than an enclosed cabinet."}
+{"query_id": "q008", "product_id": "B07QD6V13M|amazon.com", "relevance": 1, "reason": "A compact storage cabinet with drawers/door that could suit an entryway, though marketed as media storage."}
+{"query_id": "q008", "product_id": "B07XKC5BCW|amazon.ca", "relevance": 2, "reason": "Small wall-mounted storage cabinet with shelves, well suited for an entryway."}
+{"query_id": "q008", "product_id": "B07DBB1S8N|amazon.com", "relevance": 1, "reason": "Explicitly for the entryway and offers storage, but it's a bench, not a cabinet, and larger than \"small\"."}
+{"query_id": "q008", "product_id": "B07MF1RR2V|amazon.com", "relevance": 1, "reason": "A storage bench with drawers that could work in an entryway, but it's a bench rather than a cabinet."}
+{"query_id": "q008", "product_id": "B07MF1SRM6|amazon.com", "relevance": 1, "reason": "A storage bench with drawers, plausible entryway substitute but not a cabinet."}
+{"query_id": "q008", "product_id": "B07M6PKCQQ|amazon.com", "relevance": 1, "reason": "A storage bench with drawers, usable in an entryway but not a cabinet."}
+{"query_id": "q008", "product_id": "B07D5M2YZC|amazon.com", "relevance": 1, "reason": "A small open wood storage cabinet/shelf unit that could work in an entryway, though it's an open bookshelf without doors and not entryway-specific."}
+{"query_id": "q008", "product_id": "B082L28P18|amazon.com", "relevance": 1, "reason": "A small storage cabinet, but designed as an office file cabinet rather than for entryway use."}
+{"query_id": "q008", "product_id": "B07QFB1L2P|amazon.com", "relevance": 1, "reason": "A small filing cabinet that could double as entryway storage, though intended for office use."}
+{"query_id": "q008", "product_id": "B07DBDPMRS|amazon.com", "relevance": 1, "reason": "Entry console table with two drawers offers some storage but is a table, not a cabinet."}
+{"query_id": "q008", "product_id": "B07QHKPD35|amazon.com", "relevance": 2, "reason": "Small white storage/filing cabinet well suited for an entryway."}
+{"query_id": "q008", "product_id": "B07V152DQ8|amazon.co.uk", "relevance": 2, "reason": "Compact wood storage cube cabinet fits a small entryway."}
+{"query_id": "q008", "product_id": "B079VNL3CG|amazon.co.uk", "relevance": 2, "reason": "Small black storage cabinet with drawers, usable in an entryway."}
+{"query_id": "q008", "product_id": "B082PFXVPB|amazon.com", "relevance": 1, "reason": "Storage cabinet but 68 inches wide is not small."}
+{"query_id": "q008", "product_id": "B07H8SSY4F|amazon.co.uk", "relevance": 0, "reason": "Large 165cm sideboard cabinet, far too big for a small entryway piece."}
+{"query_id": "q008", "product_id": "B07B77VXN8|amazon.com", "relevance": 1, "reason": "Wood storage cabinet/credenza, plausible but sizeable rather than clearly small."}
+{"query_id": "q008", "product_id": "B07FFSKF4F|amazon.ca", "relevance": 0, "reason": "Open plastic basket organizer, not an enclosed storage cabinet."}
+{"query_id": "q008", "product_id": "B07B78G1D1|amazon.com", "relevance": 0, "reason": "Open metal shelving rack, not an enclosed storage cabinet."}
+{"query_id": "q009", "product_id": "B07P6XKV3B|amazon.in", "relevance": 0, "reason": "Knife set explicitly has plastic handles, violating the stated constraint."}
+{"query_id": "q009", "product_id": "B0711YD5TK|amazon.in", "relevance": 2, "reason": "Stainless steel knife set with solid non-plastic handles, strong match."}
+{"query_id": "q009", "product_id": "B0719QB6HW|amazon.in", "relevance": 2, "reason": "Stainless steel knife set with solid non-plastic handles, strong match."}
+{"query_id": "q009", "product_id": "B0728HGGPC|amazon.in", "relevance": 2, "reason": "Stainless steel kitchen knife set with solid non-plastic handles, strong match."}
+{"query_id": "q009", "product_id": "B0719QB6HV|amazon.in", "relevance": 2, "reason": "Stainless steel knife set with solid non-plastic handles, strong match."}
+{"query_id": "q009", "product_id": "B00R3Z49G6|primenow.amazon.com", "relevance": 1, "reason": "Stainless steel blade knife set, but handle material cannot be confirmed as non-plastic."}
+{"query_id": "q009", "product_id": "B000WIB27K|amazon.in", "relevance": 1, "reason": "Full tang steak knife set, but material and handle composition are unstated/unverifiable."}
+{"query_id": "q009", "product_id": "B00R3Z3ZF2|amazon.ca", "relevance": 1, "reason": "Knife block set of unspecified material, plausible substitute but handle material unverified."}
+{"query_id": "q009", "product_id": "B07Y5Y7CRZ|amazon.in", "relevance": 0, "reason": "Disposable plastic knives, not stainless steel and entirely plastic."}
+{"query_id": "q009", "product_id": "B07Y5XQ2LS|amazon.in", "relevance": 0, "reason": "Plastic disposable cutlery, violates both stainless steel and non-plastic handle requirements."}
+{"query_id": "q009", "product_id": "B07GJKFS4F|amazon.in", "relevance": 1, "reason": "Stainless steel knives with metal handles, but these are dinner/table knives rather than a kitchen knife set."}
+{"query_id": "q009", "product_id": "B0711YD5ZC|amazon.in", "relevance": 1, "reason": "Includes a plastic-gripped kitchen shears alongside the knife, partially conflicting with the no-plastic-handle constraint."}
+{"query_id": "q009", "product_id": "B07Y62HQ1C|amazon.in", "relevance": 0, "reason": "Disposable plastic knives, not stainless steel."}
+{"query_id": "q009", "product_id": "B0719QB6HX|amazon.in", "relevance": 1, "reason": "Includes a plastic-gripped kitchen shears alongside the knives, partially conflicting with the no-plastic-handle constraint."}
+{"query_id": "q009", "product_id": "B088TLCM3D|amazon.in", "relevance": 1, "reason": "Includes a plastic-gripped kitchen shears alongside the knife, partially conflicting with the no-plastic-handle constraint."}
+{"query_id": "q009", "product_id": "B07PBBWVHY|amazon.in", "relevance": 0, "reason": "A vegetable masher, not a knife product at all."}
+{"query_id": "q009", "product_id": "B07P6XJRN3|amazon.in", "relevance": 1, "reason": "Single stainless steel bread knife rather than a set, and listed as having a plastic handle component."}
+{"query_id": "q009", "product_id": "B071SDYY6N|amazon.in", "relevance": 1, "reason": "Single stainless steel knife with a solid handle, but not a set."}
+{"query_id": "q009", "product_id": "B07BPXMG9T|amazon.in", "relevance": 0, "reason": "A plastic peeler, not a knife at all."}
+{"query_id": "q009", "product_id": "B07PCCV91J|amazon.in", "relevance": 0, "reason": "Single knife with plastic material and not a set."}
+{"query_id": "q010", "product_id": "B075HXLWTN|amazon.com", "relevance": 0, "reason": "Opaque white stoneware vase, not glass or transparent, conflicting with the not-ceramic constraint."}
+{"query_id": "q010", "product_id": "B078JMJC49|amazon.com", "relevance": 0, "reason": "Explicitly ceramic and opaque, directly violating the not-ceramic and transparency requirements."}
+{"query_id": "q010", "product_id": "B086XH2CBN|amazon.ca", "relevance": 2, "reason": "Clear transparent glass vase, matching the requested material and transparency well."}
+{"query_id": "q010", "product_id": "B075HXLWT5|amazon.com", "relevance": 0, "reason": "Small opaque stoneware vase, not glass, transparent, or tall."}
+{"query_id": "q010", "product_id": "B075HWDTMM|amazon.com", "relevance": 0, "reason": "Opaque stoneware vase, not glass or transparent."}
+{"query_id": "q010", "product_id": "B075HR7DM7|amazon.com", "relevance": 0, "reason": "Small opaque stoneware vase, not glass, transparent, or tall."}
+{"query_id": "q010", "product_id": "B075HXPFTG|amazon.com", "relevance": 0, "reason": "Opaque stoneware vase, not glass or transparent."}
+{"query_id": "q010", "product_id": "B078JFFX4L|amazon.com", "relevance": 0, "reason": "Explicitly ceramic and opaque, directly violating the constraints."}
+{"query_id": "q010", "product_id": "B07QHL2D4B|amazon.com", "relevance": 0, "reason": "Tall vase but opaque stoneware material, not glass, conflicting with the not-ceramic constraint."}
+{"query_id": "q010", "product_id": "B075HWX46K|amazon.com", "relevance": 0, "reason": "Opaque stoneware vase, not glass or transparent."}
+{"query_id": "q010", "product_id": "B075HR7KY9|amazon.com", "relevance": 0, "reason": "Opaque stoneware vase, not glass or transparent."}
+{"query_id": "q010", "product_id": "B075HR4ZDB|amazon.com", "relevance": 0, "reason": "Explicitly ceramic and opaque, violating the constraints."}
+{"query_id": "q010", "product_id": "B086K7LM66|amazon.co.uk", "relevance": 1, "reason": "Transparent glass drinkware matches the material and transparency, but it is a champagne flute, not a flower vase."}
+{"query_id": "q010", "product_id": "B075HWX46N|amazon.com", "relevance": 0, "reason": "Opaque glazed stoneware-look vase, not glass or transparent."}
+{"query_id": "q010", "product_id": "B078JGHZT3|amazon.com", "relevance": 0, "reason": "Opaque ceramic vase, violating the not-ceramic and transparency constraints."}
+{"query_id": "q010", "product_id": "B078JJDPR2|amazon.com", "relevance": 0, "reason": "Opaque ceramic vase, violating the not-ceramic and transparency constraints."}
+{"query_id": "q010", "product_id": "B078JGRLCJ|amazon.com", "relevance": 0, "reason": "Explicitly ceramic, opaque, and short, violating the constraints."}
+{"query_id": "q010", "product_id": "B078JMJC46|amazon.com", "relevance": 0, "reason": "Opaque ceramic planter pot, not a glass vase."}
+{"query_id": "q010", "product_id": "B07HSMVFMP|amazon.com", "relevance": 0, "reason": "Tall vase but opaque stoneware material, not glass, conflicting with the not-ceramic constraint."}
+{"query_id": "q010", "product_id": "B07JM6GHC8|amazon.com", "relevance": 0, "reason": "Tall vase but opaque stoneware material, not glass, conflicting with the not-ceramic constraint."}
+{"query_id": "q011", "product_id": "B07D49ZZ6S|amazon.com", "relevance": 1, "reason": "Same bed-frame category but visually a basic metal wire frame, unlike the wooden slatted storage-box frame in the query image."}
+{"query_id": "q011", "product_id": "B014GCABSI|amazon.com", "relevance": 1, "reason": "Both are bed frames but this is a black folding metal leg frame versus the query's wood box with hinged slat panel."}
+{"query_id": "q011", "product_id": "B086TGJFZK|amazon.com", "relevance": 1, "reason": "A metal bed with headboard and wood slats; same furniture category but visually different from the plain wood/metal lift-up base in the query."}
+{"query_id": "q011", "product_id": "B07Y2D8SF7|amazon.in", "relevance": 1, "reason": "An adjustable bed base shares the adjustable/hinged concept of the query image but uses a padded fabric top and different mechanism."}
+{"query_id": "q011", "product_id": "B07K6M8HKR|amazon.com", "relevance": 1, "reason": "Black steel bed frame, same product type but a simple leg frame rather than the wood box design in the query image."}
+{"query_id": "q011", "product_id": "B07K6MBGYH|amazon.com", "relevance": 1, "reason": "Black steel bed frame, functionally similar category but visually a plain metal grid rather than the query's wood/slat lift-up base."}
+{"query_id": "q011", "product_id": "B014GCACKU|amazon.com", "relevance": 1, "reason": "Black folding metal platform frame, same bed frame category but different material and appearance than query."}
+{"query_id": "q011", "product_id": "B07D4BHP6T|amazon.com", "relevance": 1, "reason": "Black metal support frame, same product type but bare steel grid look unlike the wood box in the query image."}
+{"query_id": "q011", "product_id": "B0869LMTKP|amazon.ca", "relevance": 1, "reason": "A metal-and-wood platform bed with visible wood slats shares materials with the query but includes a headboard and darker finish."}
+{"query_id": "q011", "product_id": "B014GCAARK|amazon.com", "relevance": 1, "reason": "Black folding metal platform frame, same category but different look/material from the wood box query image."}
+{"query_id": "q011", "product_id": "B088V8YGYM|amazon.com", "relevance": 0, "reason": "A fully upholstered gray fabric bed foundation looks nothing like the exposed wood/metal slat frame in the query image."}
+{"query_id": "q011", "product_id": "B086TGRSBG|amazon.com", "relevance": 2, "reason": "Natural wood platform bed with exposed wood slats closely resembles the wood construction and slat design in the query image."}
+{"query_id": "q011", "product_id": "B00AZ0MQZW|amazon.com", "relevance": 1, "reason": "Black folding metal hi-rise frame, same bed frame category but different material/appearance than the wood query image."}
+{"query_id": "q011", "product_id": "B07JZKSPY2|amazon.com", "relevance": 1, "reason": "Bare black steel bed frame, same category but visually different from the wood box lift-up base in the query."}
+{"query_id": "q011", "product_id": "B00AZ0QH0M|amazon.com", "relevance": 1, "reason": "Black folding metal hi-rise frame, same product type but different material/look from the wood query image."}
+{"query_id": "q011", "product_id": "B07QD6TXWS|amazon.com", "relevance": 0, "reason": "A nightstand table is a completely different furniture item from the bed base shown in the query image."}
+{"query_id": "q011", "product_id": "B082T8HXS5|amazon.ca", "relevance": 1, "reason": "A white mattress foundation/box spring serves a similar bed-support function but looks visually different from the query's wood/metal frame."}
+{"query_id": "q011", "product_id": "B086ND5RMY|amazon.in", "relevance": 0, "reason": "A fully upholstered beige tufted headboard bed looks very different from the plain exposed wood/metal frame in the query image."}
+{"query_id": "q011", "product_id": "B00AZ0QIII|amazon.com", "relevance": 1, "reason": "Black folding metal hi-rise frame, same bed frame category but different material/appearance than the wood query image."}
+{"query_id": "q012", "product_id": "B07QLGRVPN|amazon.in", "relevance": 1, "reason": "A black mesh task chair is functionally an office chair like the query but lacks the leather wingback design and gray color."}
+{"query_id": "q012", "product_id": "B0792JGRNS|amazon.ca", "relevance": 2, "reason": "Nearly identical gray leather wingback chair with wood legs, matching the query image very closely in style, color, and material."}
+{"query_id": "q012", "product_id": "B07SSHYD2Z|amazon.co.uk", "relevance": 1, "reason": "A black mesh swivel office chair matches the general office-chair function but not the leather wingback style of the query."}
+{"query_id": "q012", "product_id": "B07QYB14F4|amazon.ca", "relevance": 1, "reason": "A red mesh task chair is an office chair like the query but differs in color, material, and low-back design."}
+{"query_id": "q012", "product_id": "B07TTHJJKQ|amazon.com", "relevance": 1, "reason": "A grey faux-leather swivel bar stool shares the gray leather-look upholstery of the query but is a tall stool, not an office/wingback chair."}
+{"query_id": "q012", "product_id": "B075Z6S94K|amazon.com", "relevance": 1, "reason": "A swivel office chair with curved arms similar in silhouette to the query but in teal fabric instead of gray leather."}
+{"query_id": "q012", "product_id": "B07HSKB7B4|amazon.com", "relevance": 1, "reason": "A slate grey upholstered armchair loosely resembles the query's gray upholstered wingback but is a dining chair, not a swivel office chair."}
+{"query_id": "q012", "product_id": "B08568HG2X|amazon.com", "relevance": 0, "reason": "A black counter-height bar stool is a very different seat type and color from the gray leather wingback office chair in the query."}
+{"query_id": "q012", "product_id": "B0854SBC3F|amazon.com", "relevance": 1, "reason": "A swivel accent chair matches the swivel-chair function of the query but is navy velvet rather than gray leather."}
+{"query_id": "q012", "product_id": "B07DBG291H|amazon.com", "relevance": 1, "reason": "A curved-arm upholstered accent chair resembles the query's silhouette but is dark blue fabric instead of gray leather."}
+{"query_id": "q012", "product_id": "B075Z9QBLL|amazon.com", "relevance": 0, "reason": "A wood-and-metal rust brown bar stool is a completely different seat type, material, and color from the query chair."}
+{"query_id": "q012", "product_id": "B0714QGRSL|amazon.com", "relevance": 1, "reason": "A top-grain leather armchair matches the query's leather material but is cognac colored with a boxy modern shape rather than a gray wingback."}
+{"query_id": "q012", "product_id": "B084W339RK|amazon.com", "relevance": 1, "reason": "A slate grey upholstered chair on casters matches the query's color but is a dining chair, not a wingback swivel office chair."}
+{"query_id": "q012", "product_id": "B071PDYXRQ|amazon.com", "relevance": 1, "reason": "An ash grey accent chair matches the query's gray color but has a boxy modern frame rather than a leather wingback design."}
+{"query_id": "q012", "product_id": "B07HYYJKMD|amazon.com", "relevance": 1, "reason": "A reclining fabric armchair shares general armchair function with the query but differs in color (latte vs gray) and material (fabric vs leather)."}
+{"query_id": "q012", "product_id": "B07HSKXDRL|amazon.com", "relevance": 0, "reason": "A white/chalk counter-height stool is a different seat type and color from the gray leather wingback chair in the query."}
+{"query_id": "q012", "product_id": "B085693MWK|amazon.com", "relevance": 0, "reason": "A tan brown faux-leather bar stool differs in seat type and color from the gray leather wingback office chair in the query."}
+{"query_id": "q012", "product_id": "B07PBZ3VCM|amazon.com", "relevance": 1, "reason": "A mid-century armchair with tapered wood legs shares the leg style of the query but is emerald green velvet rather than gray leather."}
+{"query_id": "q012", "product_id": "B07QGWLBBC|amazon.com", "relevance": 1, "reason": "A curved channel-back dining chair has a similarly rounded upholstered silhouette but is forest green rather than gray leather."}
+{"query_id": "q012", "product_id": "B07HSDWZ2L|amazon.com", "relevance": 0, "reason": "A beige counter-height bar stool differs in seat type and color from the gray leather wingback chair in the query."}
+{"query_id": "q013", "product_id": "B07QLGRVPN|amazon.in", "relevance": 1, "reason": "A black mesh office chair matches the general chair category and black color of the racing-style gaming chair query but lacks its distinctive bucket-seat design."}
+{"query_id": "q013", "product_id": "B07SSHYD2Z|amazon.co.uk", "relevance": 1, "reason": "A black mesh swivel office chair is functionally similar and black like the query but not a racing/gaming style bucket chair."}
+{"query_id": "q013", "product_id": "B07QYB14F4|amazon.ca", "relevance": 1, "reason": "A red mesh task chair shares the office-chair function but not the black/white racing-style design or color of the query."}
+{"query_id": "q013", "product_id": "B081HWKWN6|amazon.co.uk", "relevance": 1, "reason": "A black ergonomic mesh office chair matches the query's black color and office-chair function but has a headrest/mesh design rather than a racing bucket-seat look."}
+{"query_id": "q013", "product_id": "B081HX9SRM|amazon.co.uk", "relevance": 1, "reason": "A black high-back ergonomic mesh chair matches the query's color and office-chair function but not its racing bucket-seat style."}
+{"query_id": "q013", "product_id": "B07R1PVS26|amazon.com", "relevance": 0, "reason": "A backless garage shop stool is a fundamentally different seat type from the backed racing-style gaming chair in the query."}
+{"query_id": "q013", "product_id": "B07QX2BYDH|amazon.com", "relevance": 0, "reason": "This is a gaming desk, not a chair, so it does not satisfy a query looking for a chair despite the shared \"gaming\" theme."}
+{"query_id": "q013", "product_id": "B083739MDS|amazon.com", "relevance": 0, "reason": "A backless garage shop stool is a fundamentally different seat type from the backed racing-style gaming chair in the query."}
+{"query_id": "q013", "product_id": "B08568HG2X|amazon.com", "relevance": 0, "reason": "A black bar stool differs in form and style from the wheeled racing-style gaming chair in the query."}
+{"query_id": "q013", "product_id": "B075Z9QBLL|amazon.com", "relevance": 0, "reason": "A wood-and-metal rust brown bar stool bears no resemblance to the black/white racing-style gaming chair in the query."}
+{"query_id": "q013", "product_id": "B07HSKXDRL|amazon.com", "relevance": 0, "reason": "A white/chalk counter-height stool is a different seat type and color from the black/white racing gaming chair in the query."}
+{"query_id": "q013", "product_id": "B0792JGRNS|amazon.ca", "relevance": 1, "reason": "A leather wingback chair is a seating item like the query but stylistically opposite to the racing-style mesh/vinyl gaming chair."}
+{"query_id": "q013", "product_id": "B07HMPPZRN|amazon.com", "relevance": 0, "reason": "Black matches but it is an outdoor folding rocking chair with no wheels/swivel base, unlike the black racing-style swivel office chair in the query image."}
+{"query_id": "q013", "product_id": "B07QW3JRT4|amazon.com", "relevance": 0, "reason": "This is a gaming desk, not a chair at all, so it does not satisfy a query for a chair."}
+{"query_id": "q013", "product_id": "B075Z6S94K|amazon.com", "relevance": 1, "reason": "It is a swivel office-style chair like the query but teal fabric on a mid-century pedestal base with no casters, unlike the black wheeled racing chair pictured."}
+{"query_id": "q013", "product_id": "B085693MWK|amazon.com", "relevance": 0, "reason": "A tan leather bar stool with fixed legs and no wheels/swivel, very different from the black wheeled office/gaming chair in the query."}
+{"query_id": "q013", "product_id": "B07HSDWZ2L|amazon.com", "relevance": 0, "reason": "A beige upholstered counter-height bar stool with wooden legs, unrelated in color, form, and function to the black wheeled office chair queried."}
+{"query_id": "q013", "product_id": "B07MBFDQLY|amazon.com", "relevance": 0, "reason": "White fixed-leg dining chairs, wrong color and no wheels/swivel, not matching the black wheeled office chair query."}
+{"query_id": "q013", "product_id": "B07TZRJSQG|amazon.com", "relevance": 0, "reason": "A light-colored counter-height stool with fixed metal legs, unrelated to the black wheeled office chair in the query."}
+{"query_id": "q013", "product_id": "B07B4NWFW7|amazon.com", "relevance": 0, "reason": "A light grey fixed-leg living room accent armchair, not an office/gaming chair with wheels like the query."}
+{"query_id": "q014", "product_id": "B07QLGRVPN|amazon.in", "relevance": 1, "reason": "A black swivel task chair with wheels and arms like the query, but mesh mid-back rather than the tall padded leather executive style shown."}
+{"query_id": "q014", "product_id": "B07SSHYD2Z|amazon.co.uk", "relevance": 1, "reason": "A black swivel office chair with armrests and wheels similar in function to the query, though mesh-backed rather than the padded leather executive style."}
+{"query_id": "q014", "product_id": "B07QYB14F4|amazon.ca", "relevance": 0, "reason": "A swivel task chair with casters like the query in form, but it is red mesh, not the black leather color/material of the query."}
+{"query_id": "q014", "product_id": "B0792JGRNS|amazon.ca", "relevance": 0, "reason": "A dark leather wingback accent chair with fixed wooden legs, no wheels or swivel, unlike the black leather office chair in the query."}
+{"query_id": "q014", "product_id": "B081HX9SRM|amazon.co.uk", "relevance": 2, "reason": "A black high-back swivel office chair with armrests, headrest, and casters, matching the query chair's form, color, and function closely."}
+{"query_id": "q014", "product_id": "B081HWKWN6|amazon.co.uk", "relevance": 2, "reason": "A black high-back swivel office chair with headrest, armrests and wheels, very close in style and color to the query chair."}
+{"query_id": "q014", "product_id": "B08568HG2X|amazon.com", "relevance": 0, "reason": "A black faux-leather counter stool with fixed metal legs and no wheels/swivel, unlike the black executive office chair queried."}
+{"query_id": "q014", "product_id": "B07R1PVS26|amazon.com", "relevance": 1, "reason": "A black rolling stool with casters matching color and mobility, but a simple backless shop stool rather than a padded office chair with a back and arms."}
+{"query_id": "q014", "product_id": "B075Z6S94K|amazon.com", "relevance": 1, "reason": "A swivel office-style chair like the query but teal fabric with no casters, mismatched color from the black leather chair queried."}
+{"query_id": "q014", "product_id": "B083739MDS|amazon.com", "relevance": 1, "reason": "A black rolling stool with casters, same color and mobility as the query chair but lacking a backrest and arms."}
+{"query_id": "q014", "product_id": "B07HSKXDRL|amazon.com", "relevance": 0, "reason": "A light-colored counter-height stool with fixed legs, unrelated in color, form, and mobility to the black wheeled office chair queried."}
+{"query_id": "q014", "product_id": "B07TTHJJKQ|amazon.com", "relevance": 0, "reason": "A grey faux-leather swivel bar stool with wooden legs, not matching the black wheeled office chair's color or type."}
+{"query_id": "q014", "product_id": "B075Z9QBLL|amazon.com", "relevance": 0, "reason": "A wooden swivel bar stool with a rust-brown seat, unrelated in color, material, and function to the black leather office chair queried."}
+{"query_id": "q014", "product_id": "B07HMPPZRN|amazon.com", "relevance": 1, "reason": "Matches the black color of the query chair but is an outdoor folding rocking chair without wheels or a swivel base."}
+{"query_id": "q014", "product_id": "B07FQXYF8Z|amazon.sg", "relevance": 0, "reason": "A wooden monitor riser, not a chair at all, so it does not satisfy the query for a chair."}
+{"query_id": "q014", "product_id": "B085693MWK|amazon.com", "relevance": 0, "reason": "A tan faux-leather bar stool with fixed legs, wrong color and no wheels/swivel compared to the black office chair queried."}
+{"query_id": "q014", "product_id": "B07PBZ3VCM|amazon.com", "relevance": 0, "reason": "A green upholstered fixed-leg living room armchair, unrelated to the black wheeled swivel office chair queried."}
+{"query_id": "q014", "product_id": "B07QGWLBBC|amazon.com", "relevance": 0, "reason": "A forest-green dining chair with fixed wooden legs, wrong color and type compared to the black wheeled office chair in the query."}
+{"query_id": "q014", "product_id": "B07HSDWZ2L|amazon.com", "relevance": 0, "reason": "A beige upholstered counter-height bar stool with wooden legs, unrelated in color and form to the black wheeled office chair queried."}
+{"query_id": "q014", "product_id": "B07TZRJSQG|amazon.com", "relevance": 0, "reason": "A light-colored counter-height stool with fixed metal legs, unrelated in color and form to the black wheeled office chair queried."}
+{"query_id": "q015", "product_id": "B07DBCMTPB|amazon.com", "relevance": 1, "reason": "A tall floor lamp similar in overall form to the query's white torchiere floor lamp, but with a clear ribbed glass cylinder shade rather than a simple white bowl top."}
+{"query_id": "q015", "product_id": "B0824F7ZLF|amazon.com", "relevance": 1, "reason": "A tall floor lamp like the query but with a bronze downbridge arm and fabric shade instead of a simple white torchiere top."}
+{"query_id": "q015", "product_id": "B0824F3KVZ|amazon.com", "relevance": 1, "reason": "Matches the query lamp's white color, but is a short 19.5-inch table lamp rather than a tall floor-standing torchiere."}
+{"query_id": "q015", "product_id": "B07QD5SXJH|amazon.in", "relevance": 0, "reason": "A tall arc floor lamp but brass-colored with a fabric drum shade, very different in color and shape from the simple white torchiere queried."}
+{"query_id": "q015", "product_id": "B075X3S2Z6|amazon.ca", "relevance": 1, "reason": "A tall white and brass floor/tree lamp of similar height to the query, but with a distinctive two-orb tree design rather than a plain torchiere top."}
+{"query_id": "q015", "product_id": "B0824FLNCJ|amazon.com", "relevance": 0, "reason": "A shorter chrome/nickel table lamp with mercury glass accent, differing in color, height, and form from the tall white torchiere queried."}
+{"query_id": "q015", "product_id": "B0825CXG8H|amazon.com", "relevance": 0, "reason": "An antique gold starburst table lamp, very different in color, height, and design from the tall white torchiere floor lamp queried."}
+{"query_id": "q015", "product_id": "B0742DNY41|amazon.sg", "relevance": 0, "reason": "A tall floor lamp in form but brass and marble in color/material, quite different from the plain white torchiere queried."}
+{"query_id": "q015", "product_id": "B0825D87LB|amazon.com", "relevance": 0, "reason": "A short clear glass table lamp, differing in height, material, and color from the tall white torchiere floor lamp queried."}
+{"query_id": "q015", "product_id": "B0825DN9JL|amazon.com", "relevance": 0, "reason": "A short clear curved-glass table lamp, differing in height, material, and color from the tall white torchiere queried."}
+{"query_id": "q015", "product_id": "B07B4SCBPS|amazon.in", "relevance": 1, "reason": "Matches the white color of the query lamp, but is a short 21-inch task/desk lamp rather than a tall floor-standing torchiere."}
+{"query_id": "q015", "product_id": "B07MBFD6F9|amazon.com", "relevance": 0, "reason": "A short black/dark bronze table lamp, differing in height and color from the tall white torchiere floor lamp queried."}
+{"query_id": "q015", "product_id": "B07K51RSQ6|amazon.co.uk", "relevance": 0, "reason": "A very short table lamp with a fabric shade and wood base, quite different in height, material, and form from the tall white torchiere queried."}
+{"query_id": "q015", "product_id": "B07MBFDHMH|amazon.com", "relevance": 1, "reason": "Matches the white color family of the query lamp, but is a short 15-inch ceramic table lamp rather than a tall torchiere floor lamp."}
+{"query_id": "q015", "product_id": "B07MHMR8FV|amazon.com", "relevance": 0, "reason": "A short black/nickel task lamp, differing in height and color from the tall white torchiere floor lamp queried."}
+{"query_id": "q015", "product_id": "B073772TP9|amazon.com", "relevance": 0, "reason": "A short nickel table/desk lamp with a linen shade, very different in height, material, and color from the tall white torchiere queried."}
+{"query_id": "q015", "product_id": "B07B4ZP62F|amazon.com", "relevance": 0, "reason": "A small black hanging pendant light fixture, not a floor lamp, and mismatched in color from the tall white torchiere queried."}
+{"query_id": "q015", "product_id": "B07B4YVX5Q|amazon.com", "relevance": 0, "reason": "A black wall-mounted vanity light fixture, not a floor lamp, and mismatched in color and form from the query."}
+{"query_id": "q015", "product_id": "B07B4Z9PKC|amazon.com", "relevance": 0, "reason": "A black sputnik-style ceiling chandelier fixture, not a floor lamp and unrelated in color/form to the query."}
+{"query_id": "q015", "product_id": "B07JQB4FTS|amazon.com", "relevance": 0, "reason": "A small black flush-mount ceiling fixture, not a floor lamp and unrelated in color/form to the tall white torchiere queried."}
+{"query_id": "q016", "product_id": "B07XZKBMLS|amazon.in", "relevance": 1, "reason": "Same cantilever patio hanging umbrella style as the query image and not a dining item, but it is beige rather than the requested black."}
+{"query_id": "q016", "product_id": "B07XZK5XB9|amazon.ca", "relevance": 1, "reason": "Same cantilever patio umbrella style as the query, satisfying the non-dining requirement, but taupe brown rather than the requested black color."}
+{"query_id": "q016", "product_id": "B000W9F9AK|primenow.amazon.com", "relevance": 1, "reason": "Same market-umbrella style as the query but shown in a tan/beige color, not black."}
+{"query_id": "q016", "product_id": "B07YZT1DGN|amazon.com", "relevance": 1, "reason": "Same market umbrella style but taupe brown, not the requested black."}
+{"query_id": "q016", "product_id": "B00GBVDYRS|amazon.com", "relevance": 1, "reason": "Matching market umbrella style shown in beige, not black."}
+{"query_id": "q016", "product_id": "B07BK4P5PX|amazon.co.uk", "relevance": 1, "reason": "Same market umbrella shape but striped blue/white, not black."}
+{"query_id": "q016", "product_id": "B07YZV1Z5M|amazon.com", "relevance": 1, "reason": "Matching market umbrella style but white, not black."}
+{"query_id": "q016", "product_id": "B000KBLN96|amazon.com", "relevance": 1, "reason": "Same wood-pole market umbrella style but hunter green, not black."}
+{"query_id": "q016", "product_id": "B07YG8QZ45|amazon.com.au", "relevance": 1, "reason": "Related market-umbrella style with base but burgundy red, not black."}
+{"query_id": "q016", "product_id": "B07FCRBWJB|amazon.com.au", "relevance": 0, "reason": "A tilting beach umbrella with carry bag, different style from the market umbrella and wrong color."}
+{"query_id": "q016", "product_id": "B008U4QI18|amazon.com", "relevance": 2, "reason": "Same market umbrella style and explicitly black as requested."}
+{"query_id": "q016", "product_id": "B07BK3R536|amazon.com", "relevance": 1, "reason": "Same market umbrella style but white, not black."}
+{"query_id": "q016", "product_id": "B07BK4RDZN|amazon.ae", "relevance": 1, "reason": "Same market umbrella style but striped beige/white, not black."}
+{"query_id": "q016", "product_id": "B076N5V6LN|amazon.ca", "relevance": 0, "reason": "A pop-up canopy tent, not a market umbrella, and not black."}
+{"query_id": "q016", "product_id": "B081NXY9KN|amazon.com.au", "relevance": 0, "reason": "A dome-shaped event shelter tent, structurally different from a market umbrella."}
+{"query_id": "q016", "product_id": "B07GDKJVTN|amazon.in", "relevance": 0, "reason": "A silicone ice mold, completely unrelated to an umbrella."}
+{"query_id": "q016", "product_id": "B07GF762PX|amazon.in", "relevance": 0, "reason": "A silicone ice mold, completely unrelated to an umbrella."}
+{"query_id": "q016", "product_id": "B07PZ7RXHD|amazon.ca", "relevance": 0, "reason": "A floor anti-fatigue mat, unrelated to an umbrella despite being black."}
+{"query_id": "q016", "product_id": "B07Y613GT7|amazon.co.uk", "relevance": 0, "reason": "Disposable plastic spoons, completely unrelated to an umbrella despite being black."}
+{"query_id": "q016", "product_id": "B07Y613GT3|amazon.co.uk", "relevance": 0, "reason": "Disposable plastic spoons, completely unrelated to an umbrella despite being black."}
+{"query_id": "q017", "product_id": "B0792JGRNS|amazon.ca", "relevance": 2, "reason": "Same high-back wingback silhouette as the query with visible wood legs and no metal."}
+{"query_id": "q017", "product_id": "B07HSKB7B4|amazon.com", "relevance": 1, "reason": "Upholstered chair with wood-look legs but lacks the wingback shape of the query."}
+{"query_id": "q017", "product_id": "B07DBF3V6X|amazon.com", "relevance": 1, "reason": "Wood-legged accent chair but rounded tufted back differs from the wingback query shape."}
+{"query_id": "q017", "product_id": "B07DBG291H|amazon.com", "relevance": 1, "reason": "Upholstered accent chair with visible wood legs but a curved-arm shape unlike the query's wingback."}
+{"query_id": "q017", "product_id": "B082VMWB4G|amazon.com", "relevance": 1, "reason": "Wood tapered legs and no metal, but low-arm mid-century shape differs from the wingback query."}
+{"query_id": "q017", "product_id": "B07HYYJKMD|amazon.com", "relevance": 1, "reason": "Has exposed wood arms/frame and no metal, but reclining chair shape differs from the query's wingback."}
+{"query_id": "q017", "product_id": "B0011MXVLQ|amazon.ca", "relevance": 1, "reason": "Explicit hardwood frame and no metal, but boxy lounge-chair shape differs from the query's wingback."}
+{"query_id": "q017", "product_id": "B07PBZ3VCM|amazon.com", "relevance": 1, "reason": "Explicit wood material and no metal, but the tapered mid-century armchair shape differs from the wingback query."}
+{"query_id": "q017", "product_id": "B075X4YDCR|amazon.com", "relevance": 0, "reason": "Armless slipper-chair shape with no visible wood frame, unlike the wingback wooden query."}
+{"query_id": "q017", "product_id": "B07JY3NNPK|amazon.com", "relevance": 0, "reason": "Fully upholstered recliner with no visible wood frame and a shape unlike the wingback query."}
+{"query_id": "q017", "product_id": "B0714QGRSL|amazon.com", "relevance": 1, "reason": "Wood block legs and leather (not metal), but boxy modern shape differs from the query's wingback."}
+{"query_id": "q017", "product_id": "B000S6M3W4|amazon.co.uk", "relevance": 0, "reason": "Woven wicker/rattan outdoor chair, neither wooden-framed nor matching the wingback shape."}
+{"query_id": "q017", "product_id": "B07HSBJ5D6|amazon.com", "relevance": 1, "reason": "Explicit wood material and no metal, but the dining-chair shape differs from the query's wingback."}
+{"query_id": "q017", "product_id": "B071PDYXRQ|amazon.com", "relevance": 1, "reason": "Explicit ash wood material and no metal, but oversized boxy shape differs from the query's wingback."}
+{"query_id": "q017", "product_id": "B084W339RK|amazon.com", "relevance": 0, "reason": "Rolling dining chair with metal-look casters and a shape unlike the query's wooden wingback."}
+{"query_id": "q017", "product_id": "B08DWM1GZK|amazon.com", "relevance": 0, "reason": "An office desk, not a chair, so shape is unrelated to the query."}
+{"query_id": "q017", "product_id": "B0869LMTKP|amazon.ca", "relevance": 0, "reason": "A metal-framed bed, not a chair, and explicitly metal which the query excludes."}
+{"query_id": "q017", "product_id": "B08DWMY83P|amazon.com", "relevance": 0, "reason": "An office desk, not a chair, so shape is unrelated to the query."}
+{"query_id": "q017", "product_id": "B078JM9XSJ|amazon.com", "relevance": 0, "reason": "A storage bin, not a chair, and contains galvanized metal."}
+{"query_id": "q017", "product_id": "B07B813LW1|amazon.com", "relevance": 0, "reason": "A metal-and-wood cabinet/credenza, not a chair, and explicitly includes metal (iron)."}
+{"query_id": "q018", "product_id": "B07HMPPZRN|amazon.com", "relevance": 1, "reason": "Similar folding outdoor recliner-style chair in black steel, though a rocker rather than a reclining zero-gravity chair."}
+{"query_id": "q018", "product_id": "B0896G6LPJ|amazon.in", "relevance": 1, "reason": "A compact folding metal camp chair, similarly styled but a smaller basic chair rather than a larger recliner."}
+{"query_id": "q018", "product_id": "B07SXC4H2M|amazon.ca", "relevance": 2, "reason": "Same folding reclining-chair style as the query, made larger/more elaborate with an added canopy and headrest."}
+{"query_id": "q018", "product_id": "B00GJTGCZI|amazon.com", "relevance": 1, "reason": "A larger multi-piece sling lounge/chaise set sharing the sling-fabric material, but a full furniture set rather than a single similar chair."}
+{"query_id": "q018", "product_id": "B07K4QWL7F|amazon.in", "relevance": 0, "reason": "A hanging egg chair on a stand, a structurally different chair type from the folding recliner query."}
+{"query_id": "q018", "product_id": "B07JMJCTQP|amazon.in", "relevance": 0, "reason": "A furniture cover, not an actual chair."}
+{"query_id": "q018", "product_id": "B0006Q5UY4|amazon.com", "relevance": 0, "reason": "A chaise cushion pad, not a chair itself."}
+{"query_id": "q018", "product_id": "B000W9DYJ8|amazon.com", "relevance": 1, "reason": "A large outdoor steel-framed reclining lounger with canopy, bigger than the query chair but a different form (porch swing)."}
+{"query_id": "q018", "product_id": "B07DBG291H|amazon.com", "relevance": 0, "reason": "An indoor upholstered armchair, unrelated in style to the outdoor folding recliner query."}
+{"query_id": "q018", "product_id": "B000S6M3W4|amazon.co.uk", "relevance": 1, "reason": "An outdoor armchair in the same general outdoor-furniture category, though wicker-cushioned rather than a folding recliner."}
+{"query_id": "q018", "product_id": "B0792JGRNS|amazon.ca", "relevance": 0, "reason": "An indoor leather wingback chair, unrelated in style to the outdoor folding recliner query."}
+{"query_id": "q018", "product_id": "B000HBYIJ6|amazon.com", "relevance": 1, "reason": "An outdoor deep-seat chair with cushion, similar outdoor-seating category but armless and non-folding unlike the query."}
+{"query_id": "q018", "product_id": "B07XLN3MXM|amazon.ca", "relevance": 1, "reason": "Outdoor patio bench is larger seating furniture similar in category to the patio recliner chair but a different item type."}
+{"query_id": "q018", "product_id": "B00LFIZ754|amazon.in", "relevance": 0, "reason": "A furniture cover, not the chair itself, irrelevant to a request for a larger version of the item."}
+{"query_id": "q018", "product_id": "B07HYYJKMD|amazon.com", "relevance": 1, "reason": "A reclining armchair that is functionally similar and larger, though fabric indoor style rather than the outdoor mesh recliner in the query."}
+{"query_id": "q018", "product_id": "B07K23YLR8|amazon.co.uk", "relevance": 0, "reason": "Fabric drawer organizers, unrelated to a patio recliner chair."}
+{"query_id": "q018", "product_id": "B07X3ZD49J|amazon.co.uk", "relevance": 0, "reason": "Fabric storage box organizers, unrelated to a patio recliner chair."}
+{"query_id": "q018", "product_id": "B07DQWT15Y|amazon.sg", "relevance": 0, "reason": "An alarm clock, unrelated to seating furniture and explicitly small."}
+{"query_id": "q018", "product_id": "B07SG95W2W|amazon.com.au", "relevance": 0, "reason": "A small cat tree, unrelated to the query item and explicitly small rather than larger."}
+{"query_id": "q018", "product_id": "B07VD8MWGC|amazon.in", "relevance": 0, "reason": "Storage baskets, unrelated to a patio recliner chair."}
+{"query_id": "q019", "product_id": "B07ZG3SHPD|amazon.in", "relevance": 2, "reason": "Clear plastic kitchen storage containers, closely matching the colorful jar/container visual of the query for kitchen use."}
+{"query_id": "q019", "product_id": "B0852ZYV7H|amazon.in", "relevance": 2, "reason": "Clear plastic kitchen storage containers, closely matching the colorful jar/container visual of the query for kitchen use."}
+{"query_id": "q019", "product_id": "B082MLBYMV|amazon.in", "relevance": 2, "reason": "Clear plastic kitchen storage containers, closely matching the colorful jar/container visual of the query for kitchen use."}
+{"query_id": "q019", "product_id": "B07WZLYS4Q|amazon.in", "relevance": 1, "reason": "Kitchen storage bottles rather than round jars, visually related but a different container shape than the query."}
+{"query_id": "q019", "product_id": "B07ZG5PW39|amazon.in", "relevance": 2, "reason": "Kitchen grocery jars closely matching the colorful jar-set visual of the query."}
+{"query_id": "q019", "product_id": "B07XGN4JQT|amazon.in", "relevance": 2, "reason": "Kitchen plastic storage container set, closely matching the query's colorful jar container theme."}
+{"query_id": "q019", "product_id": "B07TRDYK3J|amazon.in", "relevance": 1, "reason": "Colorful kitchen bottles, similar color palette but a different container type than the jars in the query."}
+{"query_id": "q019", "product_id": "B07ZLWZTMK|amazon.com", "relevance": 2, "reason": "Colorful round stainless kitchen bowls, a strong visual match to the query's colorful jar set for kitchen use."}
+{"query_id": "q019", "product_id": "B0843R7SXN|amazon.in", "relevance": 2, "reason": "Stainless steel kitchen canister set, a close functional and visual match to storage jars."}
+{"query_id": "q019", "product_id": "B07X3XZHDL|amazon.in", "relevance": 2, "reason": "Kitchen storage jar set, closely matching the query's colorful jar container theme."}
+{"query_id": "q019", "product_id": "B07RX8DBH4|amazon.in", "relevance": 1, "reason": "Colorful kitchen bottles, similar color palette but a different container type than the jars in the query."}
+{"query_id": "q019", "product_id": "B07XWSJVKT|amazon.in", "relevance": 1, "reason": "Colorful kitchen bottles, similar color palette but a different container type than the jars in the query."}
+{"query_id": "q019", "product_id": "B07XKBFPST|amazon.in", "relevance": 2, "reason": "Kitchen storage jar set, closely matching the query's colorful jar container theme."}
+{"query_id": "q019", "product_id": "B07WCCTJTT|amazon.in", "relevance": 1, "reason": "Kitchen food storage containers, functionally related but a different form (lunch boxes with carry bag) than the jars in the query."}
+{"query_id": "q019", "product_id": "B082PTH87V|amazon.in", "relevance": 1, "reason": "Colorful kitchen bottles, similar color palette but a different container type than the jars in the query."}
+{"query_id": "q019", "product_id": "B07W4FDTH7|amazon.co.uk", "relevance": 1, "reason": "A wall shelf usable in a kitchen, but visually and functionally different from the colorful storage jars in the query."}
+{"query_id": "q019", "product_id": "B086213X6K|amazon.co.uk", "relevance": 1, "reason": "A kitchen wall clock, relevant to kitchen use but not visually similar to a jar/container set."}
+{"query_id": "q019", "product_id": "B07Q1S1ZV2|amazon.co.uk", "relevance": 0, "reason": "A bedroom dresser, explicitly violating the 'not a bedroom' constraint and unrelated to kitchen jars."}
+{"query_id": "q019", "product_id": "B07H8SMDMT|amazon.co.uk", "relevance": 0, "reason": "A bedroom bed frame, explicitly violating the 'not a bedroom' constraint."}
+{"query_id": "q019", "product_id": "B07B4SC3GW|amazon.com", "relevance": 0, "reason": "A bedroom nightstand, explicitly violating the 'not a bedroom' constraint."}
+{"query_id": "q020", "product_id": "B07HSBJ5D6|amazon.com", "relevance": 0, "reason": "An ivory dining chair, the same light shade as the query rather than a darker version."}
+{"query_id": "q020", "product_id": "B07QBQBXTD|amazon.com", "relevance": 0, "reason": "A light beige/hemp tufted chair, still a light color rather than a darker version."}
+{"query_id": "q020", "product_id": "B07TZRJSQG|amazon.com", "relevance": 0, "reason": "A light chalk-colored stool, not a darker version of the chair."}
+{"query_id": "q020", "product_id": "B084W2WJGL|amazon.com", "relevance": 0, "reason": "A light hemp-colored barstool, not darker than the query."}
+{"query_id": "q020", "product_id": "B0792JGRNS|amazon.ca", "relevance": 2, "reason": "A dark charcoal leather chair, a strong darker-color match to the light leather dining chair in the query."}
+{"query_id": "q020", "product_id": "B07MBFDQLY|amazon.com", "relevance": 0, "reason": "White dining chairs, lighter in tone than the query rather than darker."}
+{"query_id": "q020", "product_id": "B07B83KVGK|amazon.com", "relevance": 0, "reason": "A light natural-wood-toned dining chair, not a darker version."}
+{"query_id": "q020", "product_id": "B07QGWLBBC|amazon.com", "relevance": 2, "reason": "A dark forest-green dining chair, a clear darker-color match to the light query chair."}
+{"query_id": "q020", "product_id": "B000HBYIJ6|amazon.com", "relevance": 0, "reason": "A light wood-and-cream cushioned chair, not darker than the query."}
+{"query_id": "q020", "product_id": "B082VMWB4G|amazon.com", "relevance": 0, "reason": "A light chalk-colored accent chair, not a darker version."}
+{"query_id": "q020", "product_id": "B085GWXXNR|amazon.com", "relevance": 0, "reason": "A light beige upholstered chair, not darker than the query."}
+{"query_id": "q020", "product_id": "B07QDNRFGS|amazon.com", "relevance": 2, "reason": "A dark slate-gray upholstered barstool, a reasonable darker-color match to the light dining chair."}
+{"query_id": "q020", "product_id": "B07HSKXDRL|amazon.com", "relevance": 0, "reason": "A light chalk-colored stool, not darker than the query."}
+{"query_id": "q020", "product_id": "B07DBF3V6X|amazon.com", "relevance": 0, "reason": "A light linen-colored chair, not darker than the query."}
+{"query_id": "q020", "product_id": "B07Y3QQXY8|amazon.in", "relevance": 0, "reason": "A yellow plastic school chair, a different chair style and material and not a darker upholstered chair."}
+{"query_id": "q020", "product_id": "B07QD5RGPB|amazon.com", "relevance": 0, "reason": "A wall vanity light fixture, not a chair and explicitly a light, violating the query's negative constraint."}
+{"query_id": "q020", "product_id": "B07HK68BFV|amazon.in", "relevance": 0, "reason": "A pendant light fixture, not a chair and explicitly a light, violating the query's negative constraint."}
+{"query_id": "q020", "product_id": "B07QJLBQBJ|amazon.com", "relevance": 0, "reason": "A wall sconce light fixture, not a chair and explicitly a light, violating the query's negative constraint."}
+{"query_id": "q020", "product_id": "B07374K539|amazon.com", "relevance": 0, "reason": "A ceiling pendant chandelier light fixture, not a chair and explicitly a light, violating the query's negative constraint."}
+{"query_id": "q020", "product_id": "B07PZH5XLQ|amazon.ca", "relevance": 0, "reason": "An LED light bulb, entirely unrelated to a chair and explicitly a light."}

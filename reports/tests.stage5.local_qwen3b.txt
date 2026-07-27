@@ -1,0 +1,397 @@
+Stage 5 acceptance tests:
+  [PASS] file non-empty: outputs/reranked_results.jsonl (20 records)
+  [PASS] file non-empty: outputs/final_answers.local_qwen3b.jsonl (20 records)
+  [PASS] one final answer per query
+  [PASS] q001 answer has required fields
+  [PASS] q001 query exists
+  [PASS] q001 decision label allowed
+  [PASS] q001 interpreted_need is an object
+  [PASS] q001 interpreted_need category is a string
+  [PASS] q001 interpreted_need positive_preferences is a list
+  [PASS] q001 interpreted_need negative_constraints is a list
+  [PASS] q001 interpreted_need visual_preferences is a list
+  [PASS] q001 interpreted_need uncertain_fields is a list
+  [PASS] q001 product_judgements is a non-empty list
+  [PASS] q001 has reranked top-8 candidates
+  [PASS] q001 judgement product_ids are in top-8
+  [PASS] q001 judgement product_ids exist in catalog
+  [PASS] q001 judgement roles allowed
+  [PASS] q001 judgement evidence is a list
+  [PASS] q001 constraint violations are lists
+  [PASS] q001 judgements have reasons
+  [PASS] q001 customer_response is understandable
+  [PASS] q001 response avoids unavailable commerce facts
+  [PASS] q002 answer has required fields
+  [PASS] q002 query exists
+  [PASS] q002 decision label allowed
+  [PASS] q002 interpreted_need is an object
+  [PASS] q002 interpreted_need category is a string
+  [PASS] q002 interpreted_need positive_preferences is a list
+  [PASS] q002 interpreted_need negative_constraints is a list
+  [PASS] q002 interpreted_need visual_preferences is a list
+  [PASS] q002 interpreted_need uncertain_fields is a list
+  [PASS] q002 product_judgements is a non-empty list
+  [PASS] q002 has reranked top-8 candidates
+  [PASS] q002 judgement product_ids are in top-8
+  [PASS] q002 judgement product_ids exist in catalog
+  [PASS] q002 judgement roles allowed
+  [PASS] q002 judgement evidence is a list
+  [PASS] q002 constraint violations are lists
+  [PASS] q002 judgements have reasons
+  [PASS] q002 customer_response is understandable
+  [PASS] q002 response avoids unavailable commerce facts
+  [PASS] q003 answer has required fields
+  [PASS] q003 query exists
+  [PASS] q003 decision label allowed
+  [PASS] q003 interpreted_need is an object
+  [PASS] q003 interpreted_need category is a string
+  [PASS] q003 interpreted_need positive_preferences is a list
+  [PASS] q003 interpreted_need negative_constraints is a list
+  [PASS] q003 interpreted_need visual_preferences is a list
+  [PASS] q003 interpreted_need uncertain_fields is a list
+  [PASS] q003 product_judgements is a non-empty list
+  [PASS] q003 has reranked top-8 candidates
+  [PASS] q003 judgement product_ids are in top-8
+  [PASS] q003 judgement product_ids exist in catalog
+  [PASS] q003 judgement roles allowed
+  [PASS] q003 judgement evidence is a list
+  [PASS] q003 constraint violations are lists
+  [PASS] q003 judgements have reasons
+  [PASS] q003 customer_response is understandable
+  [PASS] q003 response avoids unavailable commerce facts
+  [PASS] q004 answer has required fields
+  [PASS] q004 query exists
+  [PASS] q004 decision label allowed
+  [PASS] q004 interpreted_need is an object
+  [PASS] q004 interpreted_need category is a string
+  [PASS] q004 interpreted_need positive_preferences is a list
+  [PASS] q004 interpreted_need negative_constraints is a list
+  [PASS] q004 interpreted_need visual_preferences is a list
+  [PASS] q004 interpreted_need uncertain_fields is a list
+  [PASS] q004 product_judgements is a non-empty list
+  [PASS] q004 has reranked top-8 candidates
+  [PASS] q004 judgement product_ids are in top-8
+  [PASS] q004 judgement product_ids exist in catalog
+  [PASS] q004 judgement roles allowed
+  [PASS] q004 judgement evidence is a list
+  [PASS] q004 constraint violations are lists
+  [PASS] q004 judgements have reasons
+  [PASS] q004 customer_response is understandable
+  [PASS] q004 response avoids unavailable commerce facts
+  [PASS] q005 answer has required fields
+  [PASS] q005 query exists
+  [PASS] q005 decision label allowed
+  [PASS] q005 interpreted_need is an object
+  [PASS] q005 interpreted_need category is a string
+  [PASS] q005 interpreted_need positive_preferences is a list
+  [PASS] q005 interpreted_need negative_constraints is a list
+  [PASS] q005 interpreted_need visual_preferences is a list
+  [PASS] q005 interpreted_need uncertain_fields is a list
+  [PASS] q005 product_judgements is a non-empty list
+  [PASS] q005 has reranked top-8 candidates
+  [PASS] q005 judgement product_ids are in top-8
+  [PASS] q005 judgement product_ids exist in catalog
+  [PASS] q005 judgement roles allowed
+  [PASS] q005 judgement evidence is a list
+  [PASS] q005 constraint violations are lists
+  [PASS] q005 judgements have reasons
+  [PASS] q005 customer_response is understandable
+  [PASS] q005 response avoids unavailable commerce facts
+  [PASS] q006 answer has required fields
+  [PASS] q006 query exists
+  [PASS] q006 decision label allowed
+  [PASS] q006 interpreted_need is an object
+  [PASS] q006 interpreted_need category is a string
+  [PASS] q006 interpreted_need positive_preferences is a list
+  [PASS] q006 interpreted_need negative_constraints is a list
+  [PASS] q006 interpreted_need visual_preferences is a list
+  [PASS] q006 interpreted_need uncertain_fields is a list
+  [PASS] q006 product_judgements is a non-empty list
+  [PASS] q006 has reranked top-8 candidates
+  [PASS] q006 judgement product_ids are in top-8
+  [PASS] q006 judgement product_ids exist in catalog
+  [PASS] q006 judgement roles allowed
+  [PASS] q006 judgement evidence is a list
+  [PASS] q006 constraint violations are lists
+  [PASS] q006 judgements have reasons
+  [PASS] q006 customer_response is understandable
+  [PASS] q006 response avoids unavailable commerce facts
+  [PASS] q007 answer has required fields
+  [PASS] q007 query exists
+  [PASS] q007 decision label allowed
+  [PASS] q007 interpreted_need is an object
+  [PASS] q007 interpreted_need category is a string
+  [PASS] q007 interpreted_need positive_preferences is a list
+  [PASS] q007 interpreted_need negative_constraints is a list
+  [PASS] q007 interpreted_need visual_preferences is a list
+  [PASS] q007 interpreted_need uncertain_fields is a list
+  [PASS] q007 product_judgements is a non-empty list
+  [PASS] q007 has reranked top-8 candidates
+  [PASS] q007 judgement product_ids are in top-8
+  [PASS] q007 judgement product_ids exist in catalog
+  [PASS] q007 judgement roles allowed
+  [PASS] q007 judgement evidence is a list
+  [PASS] q007 constraint violations are lists
+  [PASS] q007 judgements have reasons
+  [PASS] q007 customer_response is understandable
+  [PASS] q007 response avoids unavailable commerce facts
+  [PASS] q008 answer has required fields
+  [PASS] q008 query exists
+  [PASS] q008 decision label allowed
+  [PASS] q008 interpreted_need is an object
+  [PASS] q008 interpreted_need category is a string
+  [PASS] q008 interpreted_need positive_preferences is a list
+  [PASS] q008 interpreted_need negative_constraints is a list
+  [PASS] q008 interpreted_need visual_preferences is a list
+  [PASS] q008 interpreted_need uncertain_fields is a list
+  [PASS] q008 product_judgements is a non-empty list
+  [PASS] q008 has reranked top-8 candidates
+  [PASS] q008 judgement product_ids are in top-8
+  [PASS] q008 judgement product_ids exist in catalog
+  [PASS] q008 judgement roles allowed
+  [PASS] q008 judgement evidence is a list
+  [PASS] q008 constraint violations are lists
+  [PASS] q008 judgements have reasons
+  [PASS] q008 customer_response is understandable
+  [PASS] q008 response avoids unavailable commerce facts
+  [PASS] q009 answer has required fields
+  [PASS] q009 query exists
+  [PASS] q009 decision label allowed
+  [PASS] q009 interpreted_need is an object
+  [PASS] q009 interpreted_need category is a string
+  [PASS] q009 interpreted_need positive_preferences is a list
+  [PASS] q009 interpreted_need negative_constraints is a list
+  [PASS] q009 interpreted_need visual_preferences is a list
+  [PASS] q009 interpreted_need uncertain_fields is a list
+  [PASS] q009 product_judgements is a non-empty list
+  [PASS] q009 has reranked top-8 candidates
+  [PASS] q009 judgement product_ids are in top-8
+  [PASS] q009 judgement product_ids exist in catalog
+  [PASS] q009 judgement roles allowed
+  [PASS] q009 judgement evidence is a list
+  [PASS] q009 constraint violations are lists
+  [PASS] q009 judgements have reasons
+  [PASS] q009 customer_response is understandable
+  [PASS] q009 response avoids unavailable commerce facts
+  [PASS] q010 answer has required fields
+  [PASS] q010 query exists
+  [PASS] q010 decision label allowed
+  [PASS] q010 interpreted_need is an object
+  [PASS] q010 interpreted_need category is a string
+  [PASS] q010 interpreted_need positive_preferences is a list
+  [PASS] q010 interpreted_need negative_constraints is a list
+  [PASS] q010 interpreted_need visual_preferences is a list
+  [PASS] q010 interpreted_need uncertain_fields is a list
+  [PASS] q010 product_judgements is a non-empty list
+  [PASS] q010 has reranked top-8 candidates
+  [PASS] q010 judgement product_ids are in top-8
+  [PASS] q010 judgement product_ids exist in catalog
+  [PASS] q010 judgement roles allowed
+  [PASS] q010 judgement evidence is a list
+  [PASS] q010 constraint violations are lists
+  [PASS] q010 judgements have reasons
+  [PASS] q010 customer_response is understandable
+  [PASS] q010 response avoids unavailable commerce facts
+  [PASS] q011 answer has required fields
+  [PASS] q011 query exists
+  [PASS] q011 decision label allowed
+  [PASS] q011 interpreted_need is an object
+  [PASS] q011 interpreted_need category is a string
+  [PASS] q011 interpreted_need positive_preferences is a list
+  [PASS] q011 interpreted_need negative_constraints is a list
+  [PASS] q011 interpreted_need visual_preferences is a list
+  [PASS] q011 interpreted_need uncertain_fields is a list
+  [PASS] q011 product_judgements is a non-empty list
+  [PASS] q011 has reranked top-8 candidates
+  [PASS] q011 judgement product_ids are in top-8
+  [PASS] q011 judgement product_ids exist in catalog
+  [PASS] q011 judgement roles allowed
+  [PASS] q011 judgement evidence is a list
+  [PASS] q011 constraint violations are lists
+  [PASS] q011 judgements have reasons
+  [PASS] q011 customer_response is understandable
+  [PASS] q011 response avoids unavailable commerce facts
+  [PASS] q012 answer has required fields
+  [PASS] q012 query exists
+  [PASS] q012 decision label allowed
+  [PASS] q012 interpreted_need is an object
+  [PASS] q012 interpreted_need category is a string
+  [PASS] q012 interpreted_need positive_preferences is a list
+  [PASS] q012 interpreted_need negative_constraints is a list
+  [PASS] q012 interpreted_need visual_preferences is a list
+  [PASS] q012 interpreted_need uncertain_fields is a list
+  [PASS] q012 product_judgements is a non-empty list
+  [PASS] q012 has reranked top-8 candidates
+  [PASS] q012 judgement product_ids are in top-8
+  [PASS] q012 judgement product_ids exist in catalog
+  [PASS] q012 judgement roles allowed
+  [PASS] q012 judgement evidence is a list
+  [PASS] q012 constraint violations are lists
+  [PASS] q012 judgements have reasons
+  [PASS] q012 customer_response is understandable
+  [PASS] q012 response avoids unavailable commerce facts
+  [PASS] q013 answer has required fields
+  [PASS] q013 query exists
+  [PASS] q013 decision label allowed
+  [PASS] q013 interpreted_need is an object
+  [PASS] q013 interpreted_need category is a string
+  [PASS] q013 interpreted_need positive_preferences is a list
+  [PASS] q013 interpreted_need negative_constraints is a list
+  [PASS] q013 interpreted_need visual_preferences is a list
+  [PASS] q013 interpreted_need uncertain_fields is a list
+  [PASS] q013 product_judgements is a non-empty list
+  [PASS] q013 has reranked top-8 candidates
+  [PASS] q013 judgement product_ids are in top-8
+  [PASS] q013 judgement product_ids exist in catalog
+  [PASS] q013 judgement roles allowed
+  [PASS] q013 judgement evidence is a list
+  [PASS] q013 constraint violations are lists
+  [PASS] q013 judgements have reasons
+  [PASS] q013 customer_response is understandable
+  [PASS] q013 response avoids unavailable commerce facts
+  [PASS] q014 answer has required fields
+  [PASS] q014 query exists
+  [PASS] q014 decision label allowed
+  [PASS] q014 interpreted_need is an object
+  [PASS] q014 interpreted_need category is a string
+  [PASS] q014 interpreted_need positive_preferences is a list
+  [PASS] q014 interpreted_need negative_constraints is a list
+  [PASS] q014 interpreted_need visual_preferences is a list
+  [PASS] q014 interpreted_need uncertain_fields is a list
+  [PASS] q014 product_judgements is a non-empty list
+  [PASS] q014 has reranked top-8 candidates
+  [PASS] q014 judgement product_ids are in top-8
+  [PASS] q014 judgement product_ids exist in catalog
+  [PASS] q014 judgement roles allowed
+  [PASS] q014 judgement evidence is a list
+  [PASS] q014 constraint violations are lists
+  [PASS] q014 judgements have reasons
+  [PASS] q014 customer_response is understandable
+  [PASS] q014 response avoids unavailable commerce facts
+  [PASS] q015 answer has required fields
+  [PASS] q015 query exists
+  [PASS] q015 decision label allowed
+  [PASS] q015 interpreted_need is an object
+  [PASS] q015 interpreted_need category is a string
+  [PASS] q015 interpreted_need positive_preferences is a list
+  [PASS] q015 interpreted_need negative_constraints is a list
+  [PASS] q015 interpreted_need visual_preferences is a list
+  [PASS] q015 interpreted_need uncertain_fields is a list
+  [PASS] q015 product_judgements is a non-empty list
+  [PASS] q015 has reranked top-8 candidates
+  [PASS] q015 judgement product_ids are in top-8
+  [PASS] q015 judgement product_ids exist in catalog
+  [PASS] q015 judgement roles allowed
+  [PASS] q015 judgement evidence is a list
+  [PASS] q015 constraint violations are lists
+  [PASS] q015 judgements have reasons
+  [PASS] q015 customer_response is understandable
+  [PASS] q015 response avoids unavailable commerce facts
+  [PASS] q016 answer has required fields
+  [PASS] q016 query exists
+  [PASS] q016 decision label allowed
+  [PASS] q016 interpreted_need is an object
+  [PASS] q016 interpreted_need category is a string
+  [PASS] q016 interpreted_need positive_preferences is a list
+  [PASS] q016 interpreted_need negative_constraints is a list
+  [PASS] q016 interpreted_need visual_preferences is a list
+  [PASS] q016 interpreted_need uncertain_fields is a list
+  [PASS] q016 product_judgements is a non-empty list
+  [PASS] q016 has reranked top-8 candidates
+  [PASS] q016 judgement product_ids are in top-8
+  [PASS] q016 judgement product_ids exist in catalog
+  [PASS] q016 judgement roles allowed
+  [PASS] q016 judgement evidence is a list
+  [PASS] q016 constraint violations are lists
+  [PASS] q016 judgements have reasons
+  [PASS] q016 customer_response is understandable
+  [PASS] q016 response avoids unavailable commerce facts
+  [PASS] q017 answer has required fields
+  [PASS] q017 query exists
+  [PASS] q017 decision label allowed
+  [PASS] q017 interpreted_need is an object
+  [PASS] q017 interpreted_need category is a string
+  [PASS] q017 interpreted_need positive_preferences is a list
+  [PASS] q017 interpreted_need negative_constraints is a list
+  [PASS] q017 interpreted_need visual_preferences is a list
+  [PASS] q017 interpreted_need uncertain_fields is a list
+  [PASS] q017 product_judgements is a non-empty list
+  [PASS] q017 has reranked top-8 candidates
+  [PASS] q017 judgement product_ids are in top-8
+  [PASS] q017 judgement product_ids exist in catalog
+  [PASS] q017 judgement roles allowed
+  [PASS] q017 judgement evidence is a list
+  [PASS] q017 constraint violations are lists
+  [PASS] q017 judgements have reasons
+  [PASS] q017 customer_response is understandable
+  [PASS] q017 response avoids unavailable commerce facts
+  [PASS] q018 answer has required fields
+  [PASS] q018 query exists
+  [PASS] q018 decision label allowed
+  [PASS] q018 interpreted_need is an object
+  [PASS] q018 interpreted_need category is a string
+  [PASS] q018 interpreted_need positive_preferences is a list
+  [PASS] q018 interpreted_need negative_constraints is a list
+  [PASS] q018 interpreted_need visual_preferences is a list
+  [PASS] q018 interpreted_need uncertain_fields is a list
+  [PASS] q018 product_judgements is a non-empty list
+  [PASS] q018 has reranked top-8 candidates
+  [PASS] q018 judgement product_ids are in top-8
+  [PASS] q018 judgement product_ids exist in catalog
+  [PASS] q018 judgement roles allowed
+  [PASS] q018 judgement evidence is a list
+  [PASS] q018 constraint violations are lists
+  [PASS] q018 judgements have reasons
+  [PASS] q018 customer_response is understandable
+  [PASS] q018 response avoids unavailable commerce facts
+  [PASS] q019 answer has required fields
+  [PASS] q019 query exists
+  [PASS] q019 decision label allowed
+  [PASS] q019 interpreted_need is an object
+  [PASS] q019 interpreted_need category is a string
+  [PASS] q019 interpreted_need positive_preferences is a list
+  [PASS] q019 interpreted_need negative_constraints is a list
+  [PASS] q019 interpreted_need visual_preferences is a list
+  [PASS] q019 interpreted_need uncertain_fields is a list
+  [PASS] q019 product_judgements is a non-empty list
+  [PASS] q019 has reranked top-8 candidates
+  [PASS] q019 judgement product_ids are in top-8
+  [PASS] q019 judgement product_ids exist in catalog
+  [PASS] q019 judgement roles allowed
+  [PASS] q019 judgement evidence is a list
+  [PASS] q019 constraint violations are lists
+  [PASS] q019 judgements have reasons
+  [PASS] q019 customer_response is understandable
+  [PASS] q019 response avoids unavailable commerce facts
+  [PASS] q020 answer has required fields
+  [PASS] q020 query exists
+  [PASS] q020 decision label allowed
+  [PASS] q020 interpreted_need is an object
+  [PASS] q020 interpreted_need category is a string
+  [PASS] q020 interpreted_need positive_preferences is a list
+  [PASS] q020 interpreted_need negative_constraints is a list
+  [PASS] q020 interpreted_need visual_preferences is a list
+  [PASS] q020 interpreted_need uncertain_fields is a list
+  [PASS] q020 product_judgements is a non-empty list
+  [PASS] q020 has reranked top-8 candidates
+  [PASS] q020 judgement product_ids are in top-8
+  [PASS] q020 judgement product_ids exist in catalog
+  [PASS] q020 judgement roles allowed
+  [PASS] q020 judgement evidence is a list
+  [PASS] q020 constraint violations are lists
+  [PASS] q020 judgements have reasons
+  [PASS] q020 customer_response is understandable
+  [PASS] q020 response avoids unavailable commerce facts
+
+summary:
+  [PASS] exists: reports/llm_output_summary.local_qwen3b.md
+  [PASS] llm summary mentions 'stage 5'
+  [PASS] llm summary mentions 'llm'
+  [PASS] llm summary mentions 'json validity'
+  [FAIL] llm summary mentions 'schema-valid'
+  [PASS] llm summary mentions 'fallback'
+  [PASS] llm summary mentions 'example final answers'
+  [PASS] llm summary mentions 'limitations'
+
+390 passed, 1 failed, 0 skipped
+SOME CHECKS FAILED
