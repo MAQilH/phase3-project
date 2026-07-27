@@ -16,5 +16,3 @@ artifacts/query_cache/*
 !artifacts/query_cache/.keep
 
 data/raw/
-
-adapters/
