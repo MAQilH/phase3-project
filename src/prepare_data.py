@@ -1,22 +1,3 @@
-"""Stage 0 — build ABO-Home-2K: a deterministic, category-restricted product
-catalog from raw Amazon Berkeley Objects (ABO) metadata + small images.
-
-Usage:
-    python src/prepare_data.py \
-        --listings_dir data/raw/listings/metadata \
-        --images_metadata_dir data/raw/images/metadata \
-        --small_images_dir data/raw/images/small \
-        --category_mode home \
-        --max_products 2000 \
-        --seed 42 \
-        --out data/catalog_subset.parquet
-
-Produces:
-    data/catalog_subset.parquet
-    data/prep_stats.json
-    reports/data_preparation_summary.md
-"""
-
 import argparse
 import gzip
 import json
@@ -47,7 +28,6 @@ def _clean_html(text):
 
 
 def _pick_english(values):
-    """ABO multilingual fields are lists of {"language_tag": ..., "value": ...}."""
     if not values:
         return None
     by_tag = {v.get("language_tag"): v.get("value") for v in values if v.get("value")}
@@ -57,7 +37,6 @@ def _pick_english(values):
     for tag, value in by_tag.items():
         if tag and tag.startswith("en"):
             return value
-    # fall back to the first available value if no English tag exists
     for v in values:
         if v.get("value"):
             return v["value"]
@@ -98,7 +77,6 @@ def _matches_home_category(category_path, product_type, keywords):
 
 
 def load_listings(listings_dir):
-    """Yield parsed listing dicts from listings_*.json.gz files."""
     for name in sorted(os.listdir(listings_dir)):
         if not (name.startswith("listings_") and name.endswith(".json.gz")):
             continue
@@ -111,7 +89,6 @@ def load_listings(listings_dir):
 
 
 def load_image_metadata(images_metadata_dir):
-    """Return {image_id: {"path": relative_path, "height":..., "width":...}}."""
     mapping = {}
     for name in sorted(os.listdir(images_metadata_dir)):
         if not name.endswith(".csv.gz") and not name.endswith(".csv"):
@@ -311,7 +288,7 @@ def main():
 
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     df.to_parquet(args.out, index=False)
-    df.to_csv(args.out.replace(".parquet", ".csv"), index=False)  # debugging aid
+    df.to_csv(args.out.replace(".parquet", ".csv"), index=False)
 
     stats_out = dict(stats)
     stats_out.update({

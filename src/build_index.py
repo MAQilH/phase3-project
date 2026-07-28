@@ -1,34 +1,3 @@
-"""Stage 1 — build single-vector multimodal dense embeddings, SPLADE++-style
-sparse embeddings, and searchable indexes for the ABO-Home-2K catalog.
-
-This script is meant to run on a GPU runtime (Colab/Kaggle) with the
-`stage1-gpu` dependency group installed:
-
-    uv sync --extra stage1-gpu
-
-Usage:
-    uv run python src/build_index.py \
-        --catalog data/catalog_subset.parquet \
-        --dense_model nvidia/llama-nemotron-embed-vl-1b-v2 \
-        --sparse_model prithivida/Splade_PP_en_v1 \
-        --emb_dir artifacts/embeddings \
-        --index_dir artifacts/index \
-        --report reports/indexing_summary.md \
-        --dense_batch_size 2 \
-        --sparse_top_n 128
-
-For a fast local smoke test on a laptop CPU/MPS, pass --max_products 60
-(or fewer) — this matches the assignment's "Debug" scale tier and lets you
-validate the full pipeline end to end before spending GPU hours on the
-full 2,000-product run.
-
-Every dense product/query vector is produced by ONE call into the model
-against a combined {"text": ..., "image": ...} object (see `encode_products`
-/ `encode_query`). The final vector is never built by separately encoding
-text and image and averaging/concatenating/weighting them — that policy is
-recorded in artifacts/index/index_manifest.json and checked by src/tests.py.
-"""
-
 import argparse
 import json
 import os
@@ -39,9 +8,6 @@ import numpy as np
 import pandas as pd
 
 
-# ===========================================================================
-# Dense: single-vector multimodal embedding
-# ===========================================================================
 def load_dense_model(model_name, device):
     from sentence_transformers import SentenceTransformer
     model = SentenceTransformer(model_name, trust_remote_code=True, device=device)
@@ -49,12 +15,6 @@ def load_dense_model(model_name, device):
 
 
 def encode_products(model, catalog, batch_size):
-    """One combined {"text", "image"} dict per product -> one vector each.
-
-    Uses `encode_document` when the model exposes it (the multimodal
-    Sentence Transformers convention for asymmetric document/query models);
-    falls back to `encode` with the same multimodal input objects otherwise.
-    """
     inputs = [
         {"text": row.product_text, "image": row.image_path}
         for row in catalog.itertuples()
@@ -71,8 +31,6 @@ def encode_products(model, catalog, batch_size):
 
 
 def encode_query_dense(model, query_text, query_image_path):
-    """Build the correct multimodal query object per the query's modality
-    and encode it with a single call (see Stage 2 of the assignment)."""
     encode_fn = getattr(model, "encode_query", None) or model.encode
     if query_text and query_image_path:
         query_input = {"text": query_text, "image": query_image_path}
@@ -84,13 +42,7 @@ def encode_query_dense(model, query_text, query_image_path):
     return np.asarray(vec, dtype=np.float32)[0]
 
 
-# ===========================================================================
-# Sparse: SPLADE++-style neural sparse embedding
-# ===========================================================================
 class SpladeEncoder:
-    """Thin wrapper around a SPLADE-style masked-LM that turns log-saturated,
-    max-pooled token activations into a top-N sparse vector per document."""
-
     def __init__(self, model_name, device, top_n=128):
         import torch
         from transformers import AutoModelForMaskedLM, AutoTokenizer
@@ -108,10 +60,10 @@ class SpladeEncoder:
             return_tensors="pt",
         ).to(self.device)
         with torch.no_grad():
-            logits = self.model(**enc).logits  # [B, T, V]
+            logits = self.model(**enc).logits
             activations = torch.log1p(torch.relu(logits))
             mask = enc["attention_mask"].unsqueeze(-1)
-            pooled, _ = (activations * mask).max(dim=1)  # [B, V]
+            pooled, _ = (activations * mask).max(dim=1)
         pooled = pooled.cpu().numpy()
 
         results = []
@@ -136,9 +88,6 @@ class SpladeEncoder:
         return self.encode_batch([text])[0]
 
 
-# ===========================================================================
-# Index building
-# ===========================================================================
 def build_dense_faiss(dense_matrix, path):
     import faiss
     dim = dense_matrix.shape[1]
@@ -161,9 +110,6 @@ def build_sparse_csr(sparse_records, vocab_size, path):
     return mat
 
 
-# ===========================================================================
-# Sanity-check searches used by src/tests.py
-# ===========================================================================
 def dense_self_rank(dense_index, dense_matrix, probe_vector, probe_row, top_k=10):
     scores, idx = dense_index.search(np.ascontiguousarray([probe_vector], dtype=np.float32), top_k)
     idx = idx[0].tolist()
@@ -189,10 +135,8 @@ def main():
     ap.add_argument("--dense_batch_size", type=int, default=2)
     ap.add_argument("--sparse_batch_size", type=int, default=16)
     ap.add_argument("--sparse_top_n", type=int, default=128)
-    ap.add_argument("--max_products", type=int, default=None,
-                     help="Debug scale: only embed the first N products.")
-    ap.add_argument("--device", default=None,
-                     help="cuda / mps / cpu. Default: auto-detect.")
+    ap.add_argument("--max_products", type=int, default=None)
+    ap.add_argument("--device", default=None)
     args = ap.parse_args()
 
     import torch
@@ -213,7 +157,6 @@ def main():
     print(f"Embedding {n} products on device={device}"
           + (" (DEBUG SCALE RUN)" if debug_scale else ""))
 
-    # ---- Dense ----
     t0 = time.time()
     dense_model = load_dense_model(args.dense_model, device)
     dense_matrix, used_encode_document = encode_products(
@@ -226,7 +169,6 @@ def main():
     with open(os.path.join(args.emb_dir, "product_ids.txt"), "w") as fh:
         fh.write("\n".join(product_ids) + "\n")
 
-    # ---- Sparse ----
     t0 = time.time()
     sparse_encoder = SpladeEncoder(args.sparse_model, device, top_n=args.sparse_top_n)
     sparse_results = sparse_encoder.encode_products(
@@ -243,13 +185,11 @@ def main():
             nnz_counts.append(len(indices))
             fh.write(json.dumps(rec) + "\n")
 
-    # ---- Indexes ----
     dense_index_path = os.path.join(args.index_dir, "dense_index.faiss")
     sparse_index_path = os.path.join(args.index_dir, "sparse_index.npz")
     dense_index = build_dense_faiss(dense_matrix, dense_index_path)
     sparse_matrix = build_sparse_csr(sparse_records, sparse_encoder.vocab_size, sparse_index_path)
 
-    # ---- Manifest ----
     manifest = {
         "num_products": n,
         "dense_model": args.dense_model,
@@ -269,7 +209,6 @@ def main():
     with open(os.path.join(args.index_dir, "index_manifest.json"), "w") as fh:
         json.dump(manifest, fh, indent=2)
 
-    # ---- Sanity-check searches ----
     probe_rows = [0, n // 2, n - 1]
     sanity_lines = []
     for row in probe_rows:

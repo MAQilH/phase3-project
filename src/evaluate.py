@@ -1,15 +1,3 @@
-"""Stage 4 — evaluation metrics: Precision@K, Recall@K, MAP, NDCG, judged
-coverage, computed per run and per query type, plus a qualitative error
-analysis comparing dense vs sparse and pre- vs post-reranking behavior.
-
-Usage:
-    uv run python src/evaluate.py \
-        --queries data/queries.jsonl \
-        --qrels data/qrels.jsonl \
-        --runs outputs/retrieval_results.jsonl outputs/reranked_results.jsonl \
-        --out reports/evaluation_metrics.csv
-"""
-
 import argparse
 import json
 import math
@@ -19,9 +7,6 @@ from collections import defaultdict
 import pandas as pd
 
 
-# ===========================================================================
-# Core metric functions (also imported + unit-checked by src/tests.py)
-# ===========================================================================
 def precision_at_k(ranked_ids, qrels, k):
     top = ranked_ids[:k]
     if not top:
@@ -77,9 +62,6 @@ def judged_coverage(ranked_ids, qrels, k=20):
     return judged / len(top)
 
 
-# ===========================================================================
-# I/O helpers
-# ===========================================================================
 def load_jsonl(path):
     records = []
     with open(path, encoding="utf-8") as fh:
@@ -145,9 +127,6 @@ def evaluate_run(run_records, qrels_by_query, queries, run_name, exclude_query_t
     return out
 
 
-# ===========================================================================
-# Qualitative error analysis
-# ===========================================================================
 def relevance_label(qrels, pid):
     if pid not in qrels:
         return "unjudged"
@@ -164,7 +143,6 @@ def format_hits(hits, qrels, k=5):
 
 
 def relevant_rank(hits, qrels):
-    """Rank of the first product with relevance > 0, or None."""
     for h in sorted(hits, key=lambda x: x["rank"]):
         if qrels.get(h["product_id"], 0) > 0:
             return h["rank"]
@@ -177,8 +155,6 @@ def build_error_analysis(retrieval, reranked, queries, qrels_by_query, path):
 
     cases = []
 
-    # Case 1: dense retrieval beats sparse retrieval (dense finds a relevant
-    # item earlier than sparse does).
     best_gap, best_qid = float("-inf"), None
     for qid, rec in retrieval_by_q.items():
         qrels = qrels_by_query.get(qid, {})
@@ -206,7 +182,6 @@ def build_error_analysis(retrieval, reranked, queries, qrels_by_query, path):
             "earlier when the query uses paraphrased or visual language.",
         ))
 
-    # Case 2: sparse beats dense.
     best_gap, best_qid = float("-inf"), None
     for qid, rec in retrieval_by_q.items():
         qrels = qrels_by_query.get(qid, {})
@@ -231,7 +206,6 @@ def build_error_analysis(retrieval, reranked, queries, qrels_by_query, path):
             "mass across visually/semantically similar but attribute-mismatched products.",
         ))
 
-    # Case 3: reranking improves ranking (relevant item moves up).
     best_gain, best_qid = float("-inf"), None
     for qid, rec in retrieval_by_q.items():
         rr = reranked_by_q.get(qid)
@@ -257,7 +231,6 @@ def build_error_analysis(retrieval, reranked, queries, qrels_by_query, path):
             "that independent dense/sparse scoring could only approximate.",
         ))
 
-    # Case 4: reranking hurts ranking (relevant item moves down).
     worst_loss, worst_qid = float("-inf"), None
     for qid, rec in retrieval_by_q.items():
         rr = reranked_by_q.get(qid)
@@ -283,7 +256,6 @@ def build_error_analysis(retrieval, reranked, queries, qrels_by_query, path):
             "correctly down-weighted, pulling a less relevant product to the top.",
         ))
 
-    # Case 5: an image or image_text query, regardless of the metric behavior.
     img_qid = next((qid for qid, q in queries.items()
                      if q["query_type"] in ("image", "image_text") and qid in retrieval_by_q), None)
     if img_qid:
@@ -324,8 +296,7 @@ def main():
     ap.add_argument("--queries", default="data/queries.jsonl")
     ap.add_argument("--qrels", default="data/qrels.jsonl")
     ap.add_argument("--runs", nargs="+",
-                     default=["outputs/retrieval_results.jsonl", "outputs/reranked_results.jsonl"],
-                     help="Retrieval run file(s) followed by the reranked run file")
+                     default=["outputs/retrieval_results.jsonl", "outputs/reranked_results.jsonl"])
     ap.add_argument("--out", default="reports/evaluation_metrics.csv")
     ap.add_argument("--report", default="reports/evaluation_report.md")
     ap.add_argument("--error_analysis", default="reports/error_analysis.md")
@@ -351,9 +322,6 @@ def main():
     if reranked_path and os.path.exists(reranked_path):
         reranked = load_jsonl(reranked_path)
         ce_only_records = [reorder_by(r, "cross_encoder_score") for r in reranked]
-        # hybrid_cross_encoder is the text-only cross-encoder ablation (see
-        # assignment 8.3/19): image-only queries have no text-driven ablation
-        # here and are only covered by the dense/prefusion/fused runs above.
         all_rows += evaluate_run(ce_only_records, qrels_by_query, queries, "hybrid_cross_encoder",
                                   exclude_query_types=("image",))
         all_rows += evaluate_run(reranked, qrels_by_query, queries, "hybrid_cross_encoder_fused")

@@ -1,25 +1,3 @@
-"""Stage 5 extra credit — build a small SFT seed dataset for QLoRA fine-tuning.
-
-Turns a stronger local model's accepted Stage 5 answers (see generate_answer.py)
-into (prompt, target JSON) training pairs for a weaker/base model, so the
-weaker model can be taught the same prompt -> valid-JSON behavior via LoRA.
-
-The exact prompt reconstructed here is the same one generate_answer.py would
-build for that query (same catalog/queries/reranked inputs), so the SFT
-example is faithful to what the model actually saw.
-
-Usage:
-    uv run python src/build_answer_sft_data.py \
-        --answers outputs/final_answers.local_qwen3b.jsonl \
-        --debug_raw reports/raw_llm_debug.local_qwen3b.jsonl \
-        --catalog data/catalog_subset.parquet \
-        --queries data/queries.jsonl \
-        --reranked outputs/reranked_results.jsonl \
-        --top_k 8 \
-        --target_source existing_or_fallback \
-        --out data/answer_sft_seed.local_qwen3b.jsonl
-"""
-
 import argparse
 import json
 import os
@@ -31,20 +9,14 @@ from generate_answer import build_prompt, fallback_answer, load_jsonl
 
 def main():
     ap = argparse.ArgumentParser(description="Stage 5 extra credit: build QLoRA SFT seed data")
-    ap.add_argument("--answers", required=True,
-                     help="Stage 5 final_answers.jsonl produced by a (stronger) model run")
-    ap.add_argument("--debug_raw", default=None,
-                     help="Matching --debug_raw_out log from generate_answer.py (used to skip "
-                          "fallback answers unless --target_source includes them)")
+    ap.add_argument("--answers", required=True)
+    ap.add_argument("--debug_raw", default=None)
     ap.add_argument("--catalog", default="data/catalog_subset.parquet")
     ap.add_argument("--queries", default="data/queries.jsonl")
     ap.add_argument("--reranked", default="outputs/reranked_results.jsonl")
     ap.add_argument("--top_k", type=int, default=8)
     ap.add_argument("--target_source", choices=["existing_only", "existing_or_fallback"],
-                     default="existing_or_fallback",
-                     help="existing_only: skip queries whose answer used the deterministic "
-                          "fallback. existing_or_fallback: use the fallback JSON as the training "
-                          "target too, so every query contributes an example.")
+                     default="existing_or_fallback")
     ap.add_argument("--out", default="data/answer_sft_seed.jsonl")
     args = ap.parse_args()
 

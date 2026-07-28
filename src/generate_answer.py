@@ -1,25 +1,3 @@
-"""Stage 5 — structured JSON output from a small local instruction-following
-language model, grounded in the Stage 3 reranked top-K products.
-
-Usage:
-    uv sync --extra stage5-llm
-    uv run python src/generate_answer.py \
-        --catalog data/catalog_subset.parquet \
-        --queries data/queries.jsonl \
-        --reranked outputs/reranked_results.jsonl \
-        --llm_model Qwen/Qwen2.5-1.5B-Instruct \
-        --top_k 8 \
-        --out outputs/final_answers.jsonl \
-        --summary reports/llm_output_summary.md
-
-Optional flags used by the notebook's Stage 5 section:
-    --load_in_4bit                 load the base model in 4-bit (bitsandbytes)
-    --adapter_path adapters/...    apply a PEFT/LoRA adapter on top of --llm_model
-    --debug_raw_out path.jsonl     dump one JSON record per query with the raw
-                                    model output and repair bookkeeping, used
-                                    to compare baseline models / LoRA runs
-"""
-
 import argparse
 import json
 import os
@@ -190,17 +168,15 @@ def main():
     ap.add_argument("--reranked", default="outputs/reranked_results.jsonl")
     ap.add_argument("--llm_backend", default="local", choices=["local"])
     ap.add_argument("--llm_model", default="Qwen/Qwen2.5-1.5B-Instruct")
-    ap.add_argument("--adapter_path", default=None, help="Optional PEFT/LoRA adapter directory")
+    ap.add_argument("--adapter_path", default=None)
     ap.add_argument("--load_in_4bit", action="store_true")
     ap.add_argument("--top_k", type=int, default=8)
     ap.add_argument("--max_new_tokens", type=int, default=700)
-    ap.add_argument("--local_json_repair_attempts", type=int, default=2,
-                     help="Max retries when the model output fails JSON parsing or schema validation")
+    ap.add_argument("--local_json_repair_attempts", type=int, default=2)
     ap.add_argument("--device", default=None)
     ap.add_argument("--out", default="outputs/final_answers.jsonl")
     ap.add_argument("--summary", default="reports/llm_output_summary.md")
-    ap.add_argument("--debug_raw_out", default=None,
-                     help="Optional path to dump one raw-output debug record per query")
+    ap.add_argument("--debug_raw_out", default=None)
     args = ap.parse_args()
 
     pipe = load_local_pipeline(args)

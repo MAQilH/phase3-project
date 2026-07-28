@@ -1,23 +1,3 @@
-"""Stage 3 — cross-encoder / multimodal reranker fusion.
-
-Reranks the Stage 2 candidate pool with a multimodal cross-encoder that
-scores (query, product) pairs, where either side may carry text, image, or
-both. Produces two ablations selectable with --strategy:
-
-  ce_only   final_score = cross_encoder_score
-  fused     final_score = w_ce*z(ce) + w_dense*z(dense) + w_sparse*z(sparse)
-
-Usage:
-    uv run python src/rerank.py \
-        --catalog data/catalog_subset.parquet \
-        --queries data/queries.jsonl \
-        --retrieval outputs/retrieval_results.jsonl \
-        --reranker jinaai/jina-reranker-m0 \
-        --rerank_top_n 100 \
-        --strategy fused \
-        --out outputs/reranked_results.jsonl
-"""
-
 import argparse
 import json
 import os

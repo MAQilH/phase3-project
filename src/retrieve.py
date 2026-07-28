@@ -1,23 +1,3 @@
-"""Stage 2 — text / image / image+text candidate retrieval.
-
-Encodes each query with the same multimodal dense model used in Stage 1,
-retrieves top-K dense candidates from the FAISS index, retrieves top-K
-sparse candidates from the CSR sparse index (for text-bearing queries),
-merges them, and computes a prefusion score (RRF or weighted-normalized
-score fusion) as the non-reranked hybrid baseline.
-
-Usage:
-    uv run python src/retrieve.py \
-        --catalog data/catalog_subset.parquet \
-        --queries data/queries.jsonl \
-        --index_dir artifacts/index \
-        --emb_dir artifacts/embeddings \
-        --top_k_dense 100 \
-        --top_k_sparse 100 \
-        --fusion rrf \
-        --out outputs/retrieval_results.jsonl
-"""
-
 import argparse
 import json
 import os
@@ -56,7 +36,6 @@ def sparse_search(sparse_matrix, query_indices, query_values, vocab_size, top_k)
 
 
 def normalize_scores(pairs):
-    """Min-max normalize a list of (id, score) pairs to [0, 1]."""
     if not pairs:
         return {}
     scores = np.array([s for _, s in pairs], dtype=np.float32)
@@ -66,7 +45,6 @@ def normalize_scores(pairs):
 
 
 def rrf_fuse(rank_lists, k=60):
-    """rank_lists: list of ordered id lists (best first). Returns {id: rrf_score}."""
     scores = {}
     for ranks in rank_lists:
         for rank, item_id in enumerate(ranks, start=1):

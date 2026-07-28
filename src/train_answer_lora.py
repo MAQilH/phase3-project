@@ -1,20 +1,3 @@
-"""Stage 5 extra credit — QLoRA fine-tune a small local model on the SFT seed
-data produced by build_answer_sft_data.py, to improve JSON validity/schema
-adherence without a full fine-tune.
-
-Loss is applied only to the assistant (target JSON) tokens: the prompt is
-masked out (labels = -100) so the model isn't penalized for the fixed
-instruction/schema text, only for reproducing the correct structured answer.
-
-Usage:
-    uv run python src/train_answer_lora.py \
-        --train_jsonl data/answer_sft_seed.local_qwen3b.jsonl \
-        --base_model Qwen/Qwen2.5-1.5B-Instruct \
-        --out_dir adapters/stage5-qwen25-15b-json-lora \
-        --num_train_epochs 3 \
-        --learning_rate 2e-4
-"""
-
 import argparse
 import json
 import os

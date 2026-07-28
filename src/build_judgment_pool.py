@@ -1,25 +1,3 @@
-"""Stage 4 prep — build a pooled judgment sheet for manual relevance labeling,
-then finalize the filled-in sheet into data/qrels.jsonl.
-
-Step 1 (pool):
-    uv run python src/build_judgment_pool.py \
-        --queries data/queries.jsonl \
-        --catalog data/catalog_subset.parquet \
-        --retrieval outputs/retrieval_results.jsonl \
-        --reranked outputs/reranked_results.jsonl \
-        --pool_out data/qrels_pool.csv \
-        --pool_depth 15
-
-Then open data/qrels_pool.csv and fill the `relevance` (0/1/2) and `reason`
-columns by hand, using the query, the product's title/attributes, and its
-image at `image_path`.
-
-Step 2 (finalize):
-    uv run python src/build_judgment_pool.py \
-        --finalize data/qrels_pool.csv \
-        --qrels_out data/qrels.jsonl
-"""
-
 import argparse
 import json
 import os
@@ -125,7 +103,7 @@ def main():
     ap.add_argument("--reranked", default="outputs/reranked_results.jsonl")
     ap.add_argument("--pool_out", default="data/qrels_pool.csv")
     ap.add_argument("--pool_depth", type=int, default=15)
-    ap.add_argument("--finalize", default=None, help="Path to a filled-in qrels_pool.csv")
+    ap.add_argument("--finalize", default=None)
     ap.add_argument("--qrels_out", default="data/qrels.jsonl")
     args = ap.parse_args()
 
